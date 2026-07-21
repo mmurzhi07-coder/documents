@@ -1,0 +1,1137 @@
+Date: Tue, 21 Jul 2026 18:02:19 +0500 (YEKT)
+Message-ID: <1412286198.5854.1784638939221@dmz-confluence-new.dmz.artsofte.ru>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_5853_1720509450.1784638939220"
+
+------=_Part_5853_1720509450.1784638939220
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>70-64 M =D0=A6=D0=A0 SDK. =D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=
+=D1=82=D1=8C SDK =D0=B2 =D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5 CordovaI=
+nfotecsDigitalRur =D0=B4=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 2.0.3.1=
+57</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>70-64 M =D0=A6=D0=A0 SDK. =D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=
+=82=D1=8C SDK =D0=B2 =D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5 CordovaInfo=
+tecsDigitalRur =D0=B4=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 2.0.3.157<=
+/h1>
+    <div class=3D"Section1">
+        <p>
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1784638939161 {padding: 0px;}
+div.rbtoc1784638939161 ul {list-style: none !important;margin-left: 0px;}
+div.rbtoc1784638939161 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1784638939161">
+ <ul class=3D"toc-indentation">
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=
+=D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5=D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=
+=BD=D1=82=D0=B0">1. =D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BE=D0=BA=
+=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0</a></li>
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-C=
+hangeLog">2. ChangeLog</a></li>
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=
+=D0=9E=D0=B1=D1=89=D0=B0=D1=8F=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=
+=86=D0=B8=D1=8F">3. =D0=9E=D0=B1=D1=89=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=
+=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F</a></li>
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=
+=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5=D1=82=D1=80=D0=B5=D0=B1=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9">4. =D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=
+=D0=B8=D0=B5 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9</=
+a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=
+=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5Cordov=
+aInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.15=
+7-=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=
+=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=
+=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157">4.1. =D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=
+=D0=B8=D1=82=D1=8C SDK =D0=B2 =D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5 Co=
+rdovaInfotecsDigitalRur =D0=B4=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 2=
+.0.3.157</a></li>
+   </ul></li>
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=
+=D0=9C=D0=B0=D0=BA=D0=B5=D1=82">5. =D0=9C=D0=B0=D0=BA=D0=B5=D1=82</a></li>
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=
+=D0=92=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=
+=B8=D0=B5=D1=81=D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=BE=D0=BC">6. =D0=92=
+=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D0=
+=B5 =D1=81 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=BE=D0=BC</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=
+=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5Cordov=
+aInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.15=
+7-=D0=9F=D0=9C=D0=91=D0=A02.0.3.157">6.1. =D0=9F=D0=9C=D0=91=D0=A0 2.0.3.15=
+7</a></li>
+   </ul></li>
+  <li><a href=3D"#id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=
+=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaIn=
+fotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=
+=D0=A2=D0=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D1=8B">7. =D0=A2=D0=B5=D1=
+=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D1=8B</a></li>
+ </ul>
+</div>
+<p></p>
+<h1 data-nh-numbering=3D"1. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-=D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5=D0=B4=D0=BE=D0=BA=
+=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0"><span class=3D"nh-number">1. </span><=
+span>=D0=94=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=
+=B5=D0=BD=D1=82=D0=B0</span></h1>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 24=
+.6171%;">
+  <colgroup>
+   <col style=3D"width: 36.4896%;">
+   <col style=3D"width: 63.5104%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"=D0=A6=D0=B2=D0=
+=B5=D1=82 =D1=84=D0=BE=D0=BD=D0=B0: =D0=A1=D0=B2=D0=B5=D1=82=D0=BB=D0=BE-=
+=D1=81=D0=B5=D1=80=D1=8B=D0=B9 100 %" data-highlight-colour=3D"#f4f5f7"><st=
+rong title=3D"">=D0=98=D0=BD=D0=B8=D1=86=D0=B8=D0=B0=D1=82=D0=B8=D0=B2=D0=
+=B0</strong></td>
+    <td class=3D"confluenceTd"><a href=3D"https://jira.abanking.ru/browse/S=
+BK-37206" style=3D"text-align: left;" title=3D"=D0=9F=D1=80=D0=BE=D0=B9=D1=
+=82=D0=B8 =D0=BF=D0=BE =D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B5" class=3D"exter=
+nal-link" rel=3D"nofollow">SBK-37206</a><span style=3D"color:#cce0ff;"><spa=
+n> &nbsp;</span></span></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"=D0=A6=D0=B2=D0=
+=B5=D1=82 =D1=84=D0=BE=D0=BD=D0=B0: =D0=A1=D0=B2=D0=B5=D1=82=D0=BB=D0=BE-=
+=D1=81=D0=B5=D1=80=D1=8B=D0=B9 100 %" data-highlight-colour=3D"#f4f5f7"><st=
+rong title=3D"">=D0=A1=D1=82=D0=B0=D1=82=D1=83=D1=81 =D0=B4=D0=BE=D0=BA=D1=
+=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0</strong></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">=D0=92 =D0=A0=D0=90=D0=91=
+=D0=9E=D0=A2=D0=95</span></p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"=D0=A6=D0=B2=D0=
+=B5=D1=82 =D1=84=D0=BE=D0=BD=D0=B0: =D0=A1=D0=B2=D0=B5=D1=82=D0=BB=D0=BE-=
+=D1=81=D0=B5=D1=80=D1=8B=D0=B9 100 %" data-highlight-colour=3D"#f4f5f7"><st=
+rong title=3D"">=D0=94=D0=B0=D1=82=D0=B0 =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=
+=81=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</strong></td>
+    <td class=3D"confluenceTd">-</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h1 data-nh-numbering=3D"2. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-ChangeLog"><span class=3D"nh-number">2. </span>ChangeLog=
+</h1>
+<div id=3D"expander-161027324" class=3D"expand-container">
+ <div id=3D"expander-control-161027324" class=3D"expand-control">
+  <button type=3D"button" id=3D"expand-button-161027324" class=3D"aui-butto=
+n aui-button-link aui-button-link-icon-text" aria-expanded=3D"true" aria-co=
+ntrols=3D"expander-content-161027324"><span class=3D"expand-icon aui-icon a=
+ui-icon-small aui-iconfont-chevron-down" aria-hidden=3D"true"></span><span =
+class=3D"expand-control-text conf-macro-render">ChangeLog</span></button>
+ </div>
+ <div role=3D"region" id=3D"expander-content-161027324" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-161027324">
+  <div class=3D"table-wrap">
+   <table class=3D"wrapped confluenceTable" style=3D"letter-spacing: 0.0px;=
+">
+    <colgroup>
+     <col style=3D"width: 18.3098%;">
+     <col style=3D"width: 43.5415%;">
+     <col style=3D"width: 38.1493%;">
+    </colgroup>
+    <tbody>
+     <tr>
+      <th class=3D"confluenceTh">=D0=92=D0=B5=D1=80=D1=81=D0=B8=D1=8F</th>
+      <th class=3D"confluenceTh">=D0=98=D1=81=D1=82=D0=BE=D1=87=D0=BD=D0=B8=
+=D0=BA =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9&nbsp;</=
+th>
+      <th class=3D"confluenceTh">=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9</th>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span style=3D"color:#172b4d;">sbk-cr-=
+1.11.0</span></span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/22=
+5367575/70-01+%D0%9C+%D0%A6%D0%A0+%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%8=
+7%D0%B5%D0%BD%D0%B8%D0%B5+%D1%81%D1%87%D1%91%D1%82%D0%B0.+%D0%98%D0%B7%D0%B=
+C%D0%B5%D0%BD%D0%B8%D1%82%D1%8C+%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D1%83+%D1%80=
+%D0%B0%D0%B1%D0%BE%D1%82%D1%8B+%D0%BA%D0%BD%D0%BE%D0%BF%D0%BE%D0%BA+%D0%9F%=
+D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B8%D1%82%D1%8C+%D0%9F%D0%BE%D0%B4%D0=
+%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C+%D1%81%D1%87%D1%91%D1%82+%D0%A6%D0%=
+A0+%D0%B2+%D0%BC%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85+%D0%BE%D0%=
+BA%D0%BD%D0%B0%D1%85+%D0%B2+%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B=
+5+%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F+%D1%81=
+%D1%87%D1%91%D1%82%D0%B0.+%D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%=
+D0%B0%D1%82%D1%8C+%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%83+%D0%B2%D=
+1%8B%D0%B1%D0%BE%D1%80%D0%B0+%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%=
+BE%D0%B3%D0%BE+%D1%81%D1%87%D1%91%D1%82%D0%B0" rel=3D"nofollow">70-01 =D0=
+=9C =D0=A6=D0=A0 =D0=9F=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=B0. =D0=98=D0=B7=D0=BC=D0=B5=D0=BD=D0=
+=B8=D1=82=D1=8C =D0=BB=D0=BE=D0=B3=D0=B8=D0=BA=D1=83 =D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D1=8B =D0=BA=D0=BD=D0=BE=D0=BF=D0=BE=D0=BA "=D0=9F=D1=80=D0=BE=D0=
+=B4=D0=BE=D0=BB=D0=B6=D0=B8=D1=82=D1=8C", "=D0=9F=D0=BE=D0=B4=D0=BA=D0=BB=
+=D1=8E=D1=87=D0=B8=D1=82=D1=8C =D1=81=D1=87=D1=91=D1=82 =D0=A6=D0=A0" =D0=
+=B2 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=BE=D0=BA=D0=
+=BD=D0=B0=D1=85 =D0=B2 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D0=
+=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=
+=87=D1=91=D1=82=D0=B0. =D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=83 =D0=B2=D1=
+=8B=D0=B1=D0=BE=D1=80=D0=B0 =D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=BD=D0=
+=BE=D0=B3=D0=BE =D1=81=D1=87=D1=91=D1=82=D0=B0</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">
+       <p style=3D"text-align: left;"><span style=3D"color:#172b4d;">=D0=92=
+ =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D0=BF=D0=BE=D0=B4=D0=BA=
+=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=87=D1=91=D1=82=D0=B0 =
+=D0=A6=D0=A0 (=D0=B2 =D1=82=D0=BE=D0=BC =D1=87=D0=B8=D1=81=D0=BB=D0=B5,<spa=
+n>&nbsp;</span></span><span style=3D"color:#172b4d;">=D0=B2 =D1=81=D1=86=D0=
+=B5=D0=BD=D0=B0=D1=80=D0=B8=D0=B8 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D0=B0=D0=
+=BD=D0=BD=D1=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=
+=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=B0 =D0=BA=D0=
+=BB=D1=8E=D1=87=D0=B0</span><span style=3D"color:#172b4d;">):</span></p>
+       <ol style=3D"text-align: left;">
+        <li data-uuid=3D"5f8ad879-0849-4c66-956b-2ec10fbeb927"><span style=
+=3D"color:#172b4d;">=D0=B8</span><span style=3D"color:#172b4d;">=D0=B7=D0=
+=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B0 =D0=BB=D0=BE=D0=B3=D0=B8=D0=BA=D0=B0 =D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B8 "=D0=
+=9F=D1=80=D0=BE=D0=B4=D0=BE=D0=BB=D0=B6=D0=B8=D1=82=D1=8C" =D0=BD=D0=B0 =D0=
+=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC =D0=BE=D0=BA=D0=BD=D0=
+=B5 "=D0=9A=D0=B0=D0=BA =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D1=81=
+=D1=87=D1=91=D1=82 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =
+=D1=80=D1=83=D0=B1=D0=BB=D1=8F =D0=B8 =D0=BD=D0=B0=D1=87=D0=B0=D1=82=D1=8C =
+=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F =
+=D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D1=8B=D0=BC=D0=B8 =D1=80=D1=83=D0=B1=
+=D0=BB=D1=8F=D0=BC=D0=B8" =D0=B8 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B8 "=D0=
+=9F=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B8=D1=82=D1=8C =D1=81=D1=87=D1=
+=91=D1=82" =D0=B2 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=D0=B5 "=D0=9F=D0=BE=
+=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF =
+=D0=BA =D1=81=D1=87=D0=B5=D1=82=D1=83 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=
+=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F"</span><span>;</span></li=
+>
+        <li data-uuid=3D"08601e35-90ba-4010-8ffb-1e71ac6e441a"><span>=D1=80=
+=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B0 =D1=81=D1=82=
+=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B0&nbsp;<span style=3D"color:#164555;">=
+=D0=B2=D1=8B=D0=B1=D0=BE=D1=80=D0=B0 =D1=80=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=
+=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D1=91=D1=82=D0=B0</span>;</span></li>
+        <li data-uuid=3D"e855aedd-58fa-4e5f-b09c-9c76208427ca"><span>=D0=B8=
+=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=BE =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=B5 =D0=BE=D0=BA=D0=BD=D0=BE "=D0=9F=D0=B5=D1=80=D0=B5=
+=D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0=D1=86=D0=B8=D1=8F =D0=B2 =D0=93=D0=BE=
+=D1=81=D1=83=D1=81=D0=BB=D1=83=D0=B3=D0=B8".</span></li>
+       </ol></td>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span style=3D"color:#172b4d;">sbk-cr-=
+1.11.0</span></span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/23=
+5362272/70-04+%D0%9C+%D0%A6%D0%A0+%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8=
+F.+%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD=
+%D0%B8%D0%B5+%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0.+%D0%9F%D1%80%D0%B8=
++%D0%BD%D0%B0%D0%B6%D0%B0%D1%82%D0%B8%D0%B8+%D0%BD%D0%B0+%D0%BA%D0%BD%D0%BE=
+%D0%BF%D0%BA%D1%83+%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D=
+0%B8%D1%82%D1%8C+%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF+%D0%BE%D1%82%D0%BE%D0=
+%B1%D1%80%D0%B0%D0%B6%D0%B0%D1%82%D1%8C+%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B=
+8%D1%86%D1%83+%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE+=
+%D1%81%D1%87%D1%91%D1%82%D0%B0" rel=3D"nofollow">70-04 =D0=9C =D0=A6=D0=A0 =
+=D0=93=D0=BB=D0=B0=D0=B2=D0=BD=D0=B0=D1=8F. =D0=92=D0=BE=D1=81=D1=81=D1=82=
+=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=BE=D1=81=
+=D1=82=D1=83=D0=BF=D0=B0. =D0=9F=D1=80=D0=B8 =D0=BD=D0=B0=D0=B6=D0=B0=D1=82=
+=D0=B8=D0=B8 =D0=BD=D0=B0 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D1=83 "=D0=92=D0=
+=BE=D1=81=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C =D0=B4=D0=
+=BE=D1=81=D1=82=D1=83=D0=BF" =D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=
+=B0=D1=82=D1=8C =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=83 =D1=80=D0=
+=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D1=91=D1=
+=82=D0=B0</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">
+       <p style=3D"text-align: left;"><span style=3D"color:#172b4d;"><span =
+style=3D"color:#172b4d;">=D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=
+=D0=B0=D0=BD=D0=BE =D0=BF=D1=80=D0=B8 =D0=BD=D0=B0=D0=B6=D0=B0=D1=82=D0=B8=
+=D0=B8 =D0=BD=D0=B0 =D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D1=83 "=D0=92=D0=BE=D1=
+=81=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C =D0=B4=D0=BE=D1=
+=81=D1=82=D1=83=D0=BF" =D0=B2 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=
+=BE=D0=BC =D0=BE=D0=BA=D0=BD=D0=B5 "=D0=90=D0=BD=D0=BD=D1=83=D0=BB=D0=B8=D1=
+=80=D0=BE=D0=B2=D0=B0=D0=BD =D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=
+=BA=D0=B0=D1=82 =D0=BA=D0=BB=D1=8E=D1=87=D0=B0" =D0=BE=D1=82=D0=BE=D0=B1=D1=
+=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=
+=B8=D1=86=D1=8B =D0=B2=D1=8B=D0=B1=D0=BE=D1=80=D0=B0 =D1=80=D0=B5=D0=B7=D0=
+=B5=D1=80=D0=B2=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D1=87=D1=91=D1=82=D0=B0.</sp=
+an></span></p></td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">sbk-cr-1.13=
+.0</span></td>
+      <td class=3D"confluenceTd"><a style=3D"text-align: left;" href=3D"htt=
+ps://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/235365274/70-05+M+%D0%=
+A6%D0%A0+SDK+%D0%9F%D0%9C%D0%91%D0%A0+2.0.0.89-92" rel=3D"nofollow">70-05 M=
+ =D0=A6=D0=A0 SDK (=D0=9F=D0=9C=D0=91=D0=A0 2.0.0.89-92)</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 SDK =D0=
+=B4=D0=BE<span>&nbsp;</span><span style=3D"color:#172b4d;">2.0.0.89-92</spa=
+n></td>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;">sbk-cr-1.12.0</span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/24=
+4375279/70-11+%D0%9C+%D0%A6%D0%A0+%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%8=
+7%D0%B5%D0%BD%D0%B8%D0%B5+%D1%81%D1%87%D1%91%D1%82%D0%B0.+%D0%9D%D0%B5+%D0%=
+BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B0%D1%82%D1%8C+%D1%81%D1%87%D0%B5=
+%D1%82%D0%B0+%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D0%B5%D=
+1%81%D1%8F+%D0%BD%D0%B0+40914+%D0%B2+%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D=
+1%82%D0%BE%D0%B2%D0%BE%D0%BC+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%=
+B5+%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D1%8B%D0%B9+%D1%81%D1%87%D1%9=
+1%D1%82" rel=3D"nofollow">70-11 =D0=9C =D0=A6=D0=A0 =D0=9F=D0=BE=D0=B4=D0=
+=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=
+=B0. =D0=9D=D0=B5 =D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B0=D1=82=D1=
+=8C =D1=81=D1=87=D0=B5=D1=82=D0=B0, =D0=BD=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=D1=
+=8E=D1=89=D0=B8=D0=B5=D1=81=D1=8F =D0=BD=D0=B0 "40914" =D0=B2 =D0=BF=D1=80=
+=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=BE=D0=B2=D0=BE=D0=BC =D0=BA=D0=BE=D0=BD=
+=D1=82=D1=80=D0=BE=D0=BB=D0=B5 "=D0=A0=D0=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=BD=
+=D1=8B=D0=B9 =D1=81=D1=87=D1=91=D1=82"</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;">=D0=9D=D0=B5 =D0=BE=D1=82=D0=BE=D0=B1=
+=D1=80=D0=B0=D0=B6=D0=B0=D0=B5=D0=BC =D1=81=D1=87=D0=B5=D1=82=D0=B0, =D0=BD=
+=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=D1=8E=D1=89=D0=B8=D0=B5=D1=81=D1=8F =D0=BD=
+=D0=B0 "40914" =D0=B2 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=82=D0=BE=D0=
+=B2=D0=BE=D0=BC =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D0=B5 "=D0=A0=D0=
+=B5=D0=B7=D0=B5=D1=80=D0=B2=D0=BD=D1=8B=D0=B9 =D1=81=D1=87=D1=91=D1=82"</sp=
+an></td>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span class=3D"shorten" style=3D"color=
+:#172b4d;">sbk-cr-1.13.0</span></span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/25=
+2777611/70-26+%D0%9C+%D0%A6%D0%A0+%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%8=
+7%D0%B5%D0%BD%D0%B8%D0%B5+%D1%81%D1%87%D1%91%D1%82%D0%B0.+%D0%98%D0%B7%D0%B=
+C%D0%B5%D0%BD%D0%B8%D1%82%D1%8C+%D0%BC%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%=
+D0%BE%D0%B5+%D0%BE%D0%BA%D0%BD%D0%BE+%D0%A7%D1%82%D0%BE-%D1%82%D0%BE+%D0%BF=
+%D0%BE%D1%88%D0%BB%D0%BE+%D0%BD%D0%B5+%D1%82%D0%B0%D0%BA+%D0%B4%D0%BE%D0%B1=
+%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5+%D0%B2+%D0%A7%D0%A2%D0%97+=
+70-01+%D0%BF.+3.1.1+%D0%B8+%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D1%83+%D0%BA%D0%B=
+D%D0%BE%D0%BF%D0%BA%D0%B8+%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B8%=
+D1%82%D1%8C+%D0%B2+%D0%BC%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC+%=
+D0%BE%D0%BA%D0%BD%D0%B5+%D0%9A%D0%B0%D0%BA%C2%A0%D0%BE%D1%82%D0%BA%D1%80%D1=
+%8B%D1%82%D1%8C+%D1%81%D1%87%D1%91%D1%82+%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%=
+B2%D0%BE%D0%B3%D0%BE+%D1%80%D1%83%D0%B1%D0%BB%D1%8F+%D0%B8%C2%A0%D0%BD%D0%B=
+0%D1%87%D0%B0%D1%82%D1%8C+%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%=
+D1%82%D1%8C%D1%81%D1%8F+%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%8B%D0%BC%D0=
+%B8+%D1%80%D1%83%D0%B1%D0%BB%D1%8F%D0%BC%D0%B8" rel=3D"nofollow">70-26 =D0=
+=9C =D0=A6=D0=A0 =D0=9F=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=B0. =D0=98=D0=B7=D0=BC=D0=B5=D0=BD=D0=
+=B8=D1=82=D1=8C =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D0=
+=BE=D0=BA=D0=BD=D0=BE "=D0=A7=D1=82=D0=BE-=D1=82=D0=BE =D0=BF=D0=BE=D1=88=
+=D0=BB=D0=BE =D0=BD=D0=B5 =D1=82=D0=B0=D0=BA", =D0=B4=D0=BE=D0=B1=D0=B0=D0=
+=B2=D0=BB=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=B2 =D0=A7=D0=A2=D0=97 70-01 =D0=
+=BF. 3.1.1, =D0=B8 =D0=BB=D0=BE=D0=B3=D0=B8=D0=BA=D1=83 =D0=BA=D0=BD=D0=BE=
+=D0=BF=D0=BA=D0=B8 "=D0=9F=D1=80=D0=BE=D0=B4=D0=BE=D0=BB=D0=B6=D0=B8=D1=82=
+=D1=8C" =D0=B2 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC =D0=
+=BE=D0=BA=D0=BD=D0=B5 "=D0=9A=D0=B0=D0=BA&nbsp;=D0=BE=D1=82=D0=BA=D1=80=D1=
+=8B=D1=82=D1=8C =D1=81=D1=87=D1=91=D1=82 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=
+=B2=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F =D0=B8&nbsp;=D0=BD=D0=
+=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C=D1=81=D1=8F =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D1=8B=D0=
+=BC=D0=B8 =D1=80=D1=83=D0=B1=D0=BB=D1=8F=D0=BC=D0=B8"</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span style=3D"color:#172b4d;">=D0=98=
+=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=BE =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=B5 =D0=BE=D0=BA=D0=BD=D0=BE "=D0=A7=D1=82=D0=BE-=D1=
+=82=D0=BE =D0=BF=D0=BE=D1=88=D0=BB=D0=BE =D0=BD=D0=B5 =D1=82=D0=B0=D0=BA", =
+=D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=B2 =
+=D0=A7=D0=A2=D0=97<span>&nbsp;</span><a href=3D"https://confluence.artsofte=
+.ru/x/F9ZuDQ" rel=3D"nofollow">70-01</a><span>&nbsp;</span>=D0=BF. 3.1.1 =
+=D0=BF=D0=BF. 1, =D0=B8 =D0=BB</span><span style=3D"color:#172b4d;">=D0=BE=
+=D0=B3=D0=B8=D0=BA=D1=83<span>&nbsp;</span></span><span style=3D"color:#172=
+b4d;">=D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B8 "=D0=9F=D1=80=D0=BE=D0=B4=D0=BE=
+=D0=BB=D0=B6=D0=B8=D1=82=D1=8C" =D0=BD=D0=B0 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=BC =D0=BE=D0=BA=D0=BD=D0=B5 "</span><span style=3D"co=
+lor:#172b4d;">=D0=9A=D0=B0=D0=BA&nbsp;=D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=
+=D1=8C =D1=81=D1=87=D1=91=D1=82 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=BE=
+=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F =D0=B8&nbsp;=D0=BD=D0=B0=D1=87=
+=D0=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=
+=D1=8C=D1=81=D1=8F =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D1=8B=D0=BC=D0=B8 =
+=D1=80=D1=83=D0=B1=D0=BB=D1=8F=D0=BC=D0=B8</span><span style=3D"color:#172b=
+4d;">".</span></span></td>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;">sbk-cr-1.13.0</span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/25=
+2777817/70-29+%D0%9C+%D0%A6%D0%A0+%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%8=
+6%D1%8B+%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%80%D1%83=
+%D0%B1%D0%BB%D1%8F.+%D0%97%D0%B0%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C+%D0%BD=
+%D0%B5%D0%B4%D0%BE%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%BC%D1%8B%D0%B5+%D0%B4%D=
+0%BB%D1%8F+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%=
+BD%D0%B8%D1%8F+%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B+%D0%BD%D0%B0+%D1%=
+84%D1%80%D0%B0%D0%B7%D1%8B+%D0%B2+%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%8=
+2%D1%81%D1%82%D0%B2%D0%B8%D0%B8+%D1%81+%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2=
+%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC+3.0" rel=3D"nofollow">70-29 =D0=9C =D0=A6=D0=
+=A0 =D0=A1=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=8B =D1=86=D0=B8=D1=84=D1=
+=80=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F. =D0=97=D0=
+=B0=D0=BC=D0=B5=D0=BD=D0=B8=D1=82=D1=8C =D0=BD=D0=B5=D0=B4=D0=BE=D0=BF=D1=
+=83=D1=81=D1=82=D0=B8=D0=BC=D1=8B=D0=B5 =D0=B4=D0=BB=D1=8F =D0=B8=D1=81=D0=
+=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=82=D0=
+=B5=D1=80=D0=BC=D0=B8=D0=BD=D1=8B =D0=BD=D0=B0 =D1=84=D1=80=D0=B0=D0=B7=D1=
+=8B =D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=
+=B8=D0=B8 =D1=81 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B5=D0=BC 3.0</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">
+       <p><span style=3D"color:#172b4d;"><span style=3D"color:#172b4d;"><sp=
+an style=3D"color:#172b4d;">=D0=97=D0=B0=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D1=
+=8B<span>&nbsp;</span></span><span style=3D"color:#172b4d;">=D0=BD=D0=B5=D0=
+=B4=D0=BE=D0=BF=D1=83=D1=81=D1=82=D0=B8=D0=BC=D1=8B=D0=B5 =D0=B4=D0=BB=D1=
+=8F =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D1=8F =D1=82=D0=B5=D1=80=D0=BC=D0=B8=D0=BD=D1=8B =D0=BD=D0=B0 =D1=84=D1=
+=80=D0=B0=D0=B7=D1=8B =D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=
+=81=D1=82=D0=B2=D0=B8=D0=B8 =D1=81 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D0=B5=D0=BC 3.0.</span></span></span></p></td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">sbk-cr-1.15=
+.0</span></td>
+      <td class=3D"confluenceTd"><a href=3D"https://confluence.artsofte.ru/=
+x/c4yhEQ" rel=3D"nofollow">70-39 M =D0=A6=D0=A0 SDK. =D0=9E=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=B8=D1=82=D1=8C SDK =D0=B4=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=
+=D0=B8 2.0.0.106</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 SDK =D0=
+=B4=D0=BE 2.0.0.106</td>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span class=3D"shorten" style=3D"color=
+:#172b4d;">sbk-cr-1.16.0</span></span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/spaces/BankSoyuzAO/pages/30=
+2569724/70-51+%D0%9C+%D0%A6%D0%A0+%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8=
+F.+%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D1%81%D1%82%D1%8=
+0%D0%B0%D0%BD%D0%B8%D1%86%D0%B0+%D0%A1%D0%A6%D0%A0.+%D0%9F%D0%BE%D0%BF%D0%B=
+E%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5+%D1%81%D1%87%D1%91%D1%82%D0%B0+%D0%A6=
+%D0%A0.+%D0%92%D1%8B%D0%B2%D0%BE%D0%B4+%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82=
+%D0%B2+%D1%81%D0%BE+%D1%81%D1%87%D1%91%D1%82%D0%B0+%D0%A6%D0%A0.+%D0%9E%D0%=
+BF%D0%BB%D0%B0%D1%82%D0%B0+%D0%BF%D0%BE+QR-%D0%BA%D0%BE%D0%B4%D1%83+C2B+.+%=
+D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B4%D0=
+%BE%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%8=
+0%D1%84%D0%B5%D0%B9%D1%81%D0%B0+%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%=
+D0%BE+%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8+4.0" rel=3D"nofollow">70-51 =D0=
+=9C =D0=A6=D0=A0 =D0=93=D0=BB=D0=B0=D0=B2=D0=BD=D0=B0=D1=8F. =D0=94=D0=B5=
+=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D1=80=D0=B0=D0=BD=
+=D0=B8=D1=86=D0=B0 =D0=A1=D0=A6=D0=A0. =D0=9F=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=
+=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=A6=D0=A0. =D0=
+=92=D1=8B=D0=B2=D0=BE=D0=B4 =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2 =D1=
+=81=D0=BE =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=A6=D0=A0. =D0=9E=D0=BF=D0=BB=
+=D0=B0=D1=82=D0=B0 =D0=BF=D0=BE QR-=D0=BA=D0=BE=D0=B4=D1=83 (C2B). =D0=A0=
+=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=B4=D0=BE=
+=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B8 =D0=B8=D0=BD=D1=82=D0=B5=D1=80=
+=D1=84=D0=B5=D0=B9=D1=81=D0=B0 =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=
+=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 4.0</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">
+       <p style=3D"text-align: left;"><span>&nbsp;=D0=A0</span>=D0=B5=D0=B0=
+=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D1=8B =D0=B4=D0=BE=D1=80=D0=B0=
+=D0=B1=D0=BE=D1=82=D0=BA=D0=B8 =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D1=84=D0=B5=
+=D0=B9=D1=81=D0=B0 =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=D0=BE =D0=B2=
+=D0=B5=D1=80=D1=81=D0=B8=D0=B8 4.0:</p>
+       <ol style=3D"text-align: left;">
+        <li data-uuid=3D"9fcf1569-50bb-4f4f-9913-022bedfc9a94">=D0=B8=D0=B7=
+=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=BE =D0=BD=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=
+=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9 =D0=B8 =
+=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82 =D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=
+=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE=D0=BB=D0=B5=D0=B9 =D0=BD=D0=B0 =
+=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B5 "=D0=98=D0=BD=D1=84=D0=BE=
+=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D1=81=D1=87=D1=91=D1=82=D0=B5"=
+;</li>
+        <li data-uuid=3D"b9f83846-207a-4df6-9720-d26ead7d0939">=D0=B8=D0=B7=
+=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=BE =D0=BD=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=
+=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=
+=D0=B0 "=D0=90=D0=BD=D0=BD=D1=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD =
+=D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82 =D0=BA=D0=BB=
+=D1=8E=D1=87=D0=B0" =D0=B2 =D0=BA=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=BA=D0=B5=
+ =D1=81=D1=87=D1=91=D1=82=D0=B0 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=BE=
+=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F =D0=B8 =D0=B2 =D0=BC=D0=BE=D0=
+=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC =D0=BE=D0=BA=D0=BD=D0=B5 =D0=BF=D1=
+=80=D0=B8 =D0=BD=D0=B0=D0=B6=D0=B0=D1=82=D0=B8=D0=B8 =D0=BD=D0=B0 =D1=81=D1=
+=82=D0=B0=D1=82=D1=83=D1=81 =D0=B8=D0=BB=D0=B8 =D0=BA=D0=BD=D0=BE=D0=BF=D0=
+=BA=D1=83 =D0=B2 =D0=B2=D0=B8=D0=B4=D0=B5 "=D0=B7=D0=BD=D0=B0=D0=BA=D0=B0 =
+=D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D0=B0";</li>
+        <li data-uuid=3D"5ac5bc8a-195d-48b3-a7d1-43801829cbfc">=D0=B2=D0=BD=
+=D0=B5=D1=81=D0=B5=D0=BD=D1=8B =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=B2 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =
+=D0=BE=D0=BA=D0=BD=D0=BE =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=
+=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=BF=D0=BE=
+=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B8 =D1=81=D1=87=D1=91=D1=82=D0=B0 =D1=86=
+=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=
+=D1=8F / =D0=B2=D1=8B=D0=B2=D0=BE=D0=B4=D0=B5 =D1=81=D1=80=D0=B5=D0=B4=D1=
+=81=D1=82=D0=B2 =D1=81=D0=BE =D1=81=D1=87=D1=91=D1=82=D0=B0 =D1=86=D0=B8=D1=
+=84=D1=80=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F;</li=
+>
+        <li data-uuid=3D"1189489f-62f6-47ce-956b-b45e98cbca06">=D0=B2=D0=BD=
+=D0=B5=D1=81=D0=B5=D0=BD=D1=8B =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=BD=D0=B0 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=83 =
+"=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B0 =D0=BF=D0=BE QR-=D0=BA=D0=BE=D0=B4=D1=
+=83", =D0=B2 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D0=BE=
+=D0=BA=D0=BD=D0=BE =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=
+=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=BD=D0=B0 =D1=83=D1=81=D0=BF=D0=B5=D1=88=
+=D0=BD=D1=8B=D0=B9 =D1=81=D0=BB=D0=BE=D0=B9 "=D0=9F=D0=BB=D0=B0=D1=82=D1=91=
+=D0=B6 =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD" / "=D0=9F=D0=
+=BB=D0=B0=D1=82=D1=91=D0=B6 =D0=B2 =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=
+=82=D0=BA=D0=B5".</li>
+       </ol></td>
+     </tr>
+     <tr>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><span style=3D"color:#172b4d;"><span class=3D"shorten" style=3D"color=
+:#172b4d;">1.18.0</span></span></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd"><a href=3D"https://confluence.artsofte.ru/x/zrwhEQ" rel=3D"nofollow">=
+70-56 =D0=9C =D0=A6=D0=A0 =D0=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =
+=D0=B8 =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D1=81=D1=87=D1=91=D1=82=D0=B0. =D0=92=D0=BE=D1=81=D1=81=D1=82=D0=B0=D0=BD=
+=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=BE=D1=81=D1=82=D1=83=
+=D0=BF=D0=B0. =D0=A0=D0=B5=D0=B0=D0=BB=D0=B8=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=
+=D1=8C =D0=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4 =D0=B2 =D0=BC=D0=BE=D0=B4=
+=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D0=BE=D0=BA=D0=BD=D0=BE "=D0=94=D0=BB=
+=D1=8F =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B4=D0=BE=
+=D1=81=D1=82=D1=83=D0=BF=D0=B0 =D0=BA =D1=81=D1=87=D0=B5=D1=82=D1=83 =D1=86=
+=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=
+=D1=8F =D0=BE=D1=82=D0=BA=D1=80=D0=BE=D0=B9=D1=82=D0=B5 =D1=82=D0=B5=D0=BA=
+=D1=83=D1=89=D0=B8=D0=B9 =D1=80=D1=83=D0=B1=D0=BB=D1=91=D0=B2=D1=8B=D0=B9 =
+=D1=81=D1=87=D1=91=D1=82" =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=
+=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8F, =D1=83 =D0=BA=D0=BE=D1=82=D0=BE=
+=D1=80=D0=BE=D0=B3=D0=BE =D0=B5=D1=81=D1=82=D1=8C =D1=82=D0=BE=D0=BB=D1=8C=
+=D0=BA=D0=BE =D1=81=D1=87=D0=B5=D1=82, =D0=BD=D0=B0=D1=87=D0=B8=D0=BD=D0=B0=
+=D1=8E=D1=89=D0=B8=D0=B9=D1=81=D1=8F =D1=81 "40914".</a></td>
+      <td style=3D"text-align: left;vertical-align: top;" class=3D"confluen=
+ceTd">
+       <p style=3D"text-align: left;">=D0=98=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=
+=D0=BD=D0=B0 =D0=BB=D0=BE=D0=B3=D0=B8=D0=BA=D0=B0 =D1=80=D0=B0=D0=B1=D0=BE=
+=D1=82=D1=8B:</p>
+       <ol style=3D"text-align: left;">
+        <li data-uuid=3D"12533bbd-4e6b-4aea-bdc7-605faf31e4b7"><span style=
+=3D"color:#172b4d;">=D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B8 "=D0=9F=D1=80=D0=
+=BE=D0=B4=D0=BE=D0=BB=D0=B6=D0=B8=D1=82=D1=8C" =D0=B2 =D0=BC=D0=BE=D0=B4=D0=
+=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC =D0=BE=D0=BA=D0=BD=D0=B5 "</span><span st=
+yle=3D"color:#172b4d;">=D0=9A=D0=B0=D0=BA&nbsp;=D0=BE=D1=82=D0=BA=D1=80=D1=
+=8B=D1=82=D1=8C =D1=81=D1=87=D1=91=D1=82 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=
+=B2=D0=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F =D0=B8&nbsp;=D0=BD=D0=
+=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=
+=B0=D1=82=D1=8C=D1=81=D1=8F =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D1=8B=D0=
+=BC=D0=B8 =D1=80=D1=83=D0=B1=D0=BB=D1=8F=D0=BC=D0=B8</span><span style=3D"c=
+olor:#172b4d;">";</span></li>
+        <li data-uuid=3D"d08e8734-40a9-4ca6-96da-8b2bcde970f6">=D0=BA=D0=BD=
+=D0=BE=D0=BF=D0=BA=D0=B8 "=D0=9F=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B8=
+=D1=82=D1=8C =D1=81=D1=87=D1=91=D1=82" =D0=BD=D0=B0 =D0=B3=D0=BB=D0=B0=D0=
+=B2=D0=BD=D0=BE=D0=B9 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B5 =D0=
+=B2 =D0=B1=D0=BB=D0=BE=D0=BA=D0=B5 =D1=86=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=
+=BE=D0=B3=D0=BE =D1=80=D1=83=D0=B1=D0=BB=D1=8F;</li>
+        <li data-uuid=3D"bfc32cc6-df56-44c8-b26b-c7a8a19dd000">
+         <p>=D0=BA=D0=BD=D0=BE=D0=BF=D0=BA=D0=B8 "=D0=92=D0=BE=D1=81=D1=81=
+=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C =D0=B4=D0=BE=D1=81=D1=82=
+=D1=83=D0=BF" =D0=B2 =D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=BC=
+ =D0=BE=D0=BA=D0=BD=D0=B5 "<span style=3D"color:#172b4d;">=D0=9E=D1=82=D0=
+=BE=D0=B7=D0=B2=D0=B0=D0=BD =D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=
+=BA=D0=B0=D1=82 =D0=BA=D0=BB=D1=8E=D1=87=D0=B0 =D0=BF=D1=80=D0=BE=D0=B2=D0=
+=B5=D1=80=D0=BA=D0=B8 =D1=8D=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=BD=D0=
+=BD=D0=BE=D0=B9 =D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D0=B8</span>".</p></li=
+>
+       </ol>
+       <p style=3D"text-align: left;"><span>&nbsp;</span></p></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+</div>
+<h1 data-nh-numbering=3D"3. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-=D0=9E=D0=B1=D1=89=D0=B0=D1=8F=D0=B8=D0=BD=D1=84=D0=BE=
+=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F"><span class=3D"nh-number">3. </span>=
+=D0=9E=D0=B1=D1=89=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=
+=D1=86=D0=B8=D1=8F</h1>
+<p style=3D"text-align: left;">=D0=92 =D1=80=D0=B0=D0=BC=D0=BA=D0=B0=D1=85 =
+=D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=80=D0=B0=D0=B7=D0=B4=D0=B5=
+=D0=BB=D0=B0 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =
+=D0=BE=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C<span>&nbsp;</span><span st=
+yle=3D"color:#172b4d;">SDK =D0=B2 =D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=
+=B5 <span style=3D"color:#333333;">CordovaInfotecsDigitalRur</span> =D0=B4=
+=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8<span>&nbsp;2.0.3.157.</span></s=
+pan></p>
+<p style=3D"text-align: left;"><span style=3D"color:#172b4d;">=D0=A4=D1=83=
+=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB =D0=B4=D0=BE=D0=BB=D0=B6=
+=D0=B5=D0=BD =D0=B1=D1=8B=D1=82=D1=8C =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=
+=D0=B5=D0=BD =D0=B2 =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =
+=D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F=D1=85 (=D1=81 =
+=D1=83=D1=87=D0=B5=D1=82=D0=BE=D0=BC =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B9 =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=
+=D1=8B=D1=85 =D0=BF=D0=BB=D0=B0=D1=82=D1=84=D0=BE=D1=80=D0=BC).</span></p>
+<h1 data-nh-numbering=3D"4. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5=D1=82=
+=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9"><span class=3D"nh-n=
+umber">4. </span>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=82=D1=
+=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B9</h1>
+<h2 style=3D"text-align: left;" data-nh-numbering=3D"4.1. " id=3D"id-7064M=
+=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=
+=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=
+=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=D0=9E=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=
+=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=
+=B82.0.3.157"><span class=3D"nh-number">4.1. </span>=D0=9E=D0=B1=D0=BD=D0=
+=BE=D0=B2=D0=B8=D1=82=D1=8C SDK =D0=B2 =D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=
+=D0=B5 <span style=3D"color:#333333;">CordovaInfotecsDigitalRur </span>=D0=
+=B4=D0=BE =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 2.0.3.157</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 99=
+.9934%;">
+  <colgroup>
+   <col style=3D"width: 3.45263%;">
+   <col style=3D"width: 7.02432%;">
+   <col style=3D"width: 50.2417%;">
+   <col style=3D"width: 11.1318%;">
+   <col style=3D"width: 20.2991%;">
+   <col style=3D"width: 7.85771%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th colspan=3D"1" class=3D"confluenceTh">
+     <p>=E2=84=96</p></th>
+    <th class=3D"confluenceTh">
+     <p>=D0=AD=D0=BB=D0=B5=D0=BC=D0=B5=D0=BD=D1=82/=D0=B1=D0=BB=D0=BE=D0=BA=
+/=D0=BB=D0=BE=D0=B3=D0=B8=D0=BA=D0=B0</p></th>
+    <th class=3D"confluenceTh">
+     <p>=D0=A2=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5</p></t=
+h>
+    <th class=3D"confluenceTh">
+     <p>=D0=9C=D0=B5=D1=82=D0=BE=D0=B4</p></th>
+    <th colspan=3D"1" class=3D"confluenceTh">
+     <p>=D0=9F=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80=D1=8B</p></th>
+    <th colspan=3D"1" class=3D"confluenceTh">
+     <p>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80=D0=BD=D1=8B=D0=B9 =D0=BC=D0=B0=
+=D0=BA=D0=B5=D1=82</p></th>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color:#172b4d;"=
+>4.1.1</span></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#333333;">=D0=9F=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=
+ CordovaInfotecsDigitalRur</span></p></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p></p>
+      <div class=3D"nestedlist">
+       <p>=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C SDK =D0=B4=D0=BE=
+ =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 <span style=3D"color:#172b4d;"><span>=
+2.0.3.157</span></span><span style=3D"color:#172b4d;"> =D0=B2 =D0=BF=D0=BB=
+=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5 <span style=3D"color:#333333;">CordovaInfote=
+csDigitalRur </span>=D1=81=D0=BE =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=
+=D0=B8=D0=BC=D0=B8 =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F=
+=D0=BC=D0=B8:</span></p>
+       <ol style=3D"text-align: left;">
+        <li data-uuid=3D"43a644c5-0664-4024-a240-ed0e47c84e40"><span style=
+=3D"color:#172b4d;">=D0=9D=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=
+=D0=B4=D1=8B: </span>
+         <ol style=3D"text-align: left;">
+          <li data-uuid=3D"fe1d7aa0-4d2c-4888-a764-bc66083f7e02"><span styl=
+e=3D"color:#172b4d;">"createCommonRequest" (=D1=84=D1=83=D0=BD=D0=BA=D1=86=
+=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB "<span style=3D"color:#172b4d;">=D0=90=D0=BD=
+=D0=BD=D1=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=
+=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=B0 =D0=BF=D1=80=
+=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B8 =D0=AD=D0=9F" - =D0=A7=D0=A2=D0=97 <a =
+href=3D"https://confluence.artsofte.ru/x/zrwhEQ" rel=3D"nofollow">70-56</a>=
+ =D0=BF. 4.3, =D0=B0 =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=81=D0=BC. ChangeLog=
+ =D0=BF=D0=BE =D0=BE=D1=81=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D0=BF=
+=D0=BE=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B0=D0=BC</span>) - =D1=
+=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D1=83=D0=BD=D0=B8=D0=B2=D0=
+=B5=D1=80=D1=81=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D0=B7=D0=B0=D0=
+=BF=D1=80=D0=BE=D1=81=D0=B0 =D0=BD=D0=B0 =D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=
+=84=D0=B8=D0=BA=D0=B0=D1=82. =D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=
+=83=D0=B5=D1=82=D1=81=D1=8F =D0=B4=D0=BB=D1=8F =D1=84=D0=BE=D1=80=D0=BC=D0=
+=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F CSR =D0=B7=D0=B0=D0=BF=D1=80=
+=D0=BE=D1=81=D0=B0 =D1=81 =D1=86=D0=B5=D0=BD=D1=82=D1=80=D0=B0=D0=BB=D0=B8=
+=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=BD=D1=8B=D0=BC =D0=BD=D0=B0=D0=B1=D0=BE=
+=D1=80=D0=BE=D0=BC =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80=D0=BE=
+=D0=B2;</span></li>
+          <li data-uuid=3D"8e574970-0cef-4ffc-8428-7f71e07b2557">"getRegist=
+rationStatus"<span> (=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=
+=D0=BB "=D0=A0<span style=3D"color:#172b4d;">=D0=B5=D0=B3=D0=B8=D1=81=D1=82=
+=D1=80=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0 =
+=D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=
+=D1=8F =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=B8 =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=
+=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=B0" - <spa=
+n style=3D"color:#172b4d;">=D0=A7=D0=A2=D0=97 <a href=3D"https://confluence=
+.artsofte.ru/x/zrwhEQ" rel=3D"nofollow">70-56</a> =D0=BF. 4.3, =D0=B0 =D1=
+=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=81=D0=BC. ChangeLog =D0=BF=D0=BE =D0=BE=D1=
+=81=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D0=BF=D0=BE=D1=81=D1=82=D0=
+=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B0=D0=BC</span></span>) </span>- =D0=BF=D0=
+=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D0=B0=D1=82=D1=
+=83=D1=81=D0=B0 =D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0. =D0=9C=D0=B5=D1=82=D0=
+=BE=D0=B4 =D0=B2=D0=BE=D0=B7=D0=B2=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82 =D0=
+=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 enum RegStatus (=D0=B2=D0=BE=
+=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D1=8B=D0=B5 =D1=81=D1=82=D0=B0=D1=82=D1=83=
+=D1=81=D1=8B: OK - =D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=
+=D0=B8=D1=8F =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=
+=D1=8C=D0=BD=D0=B0, INVALID - =D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=
+=B0=D1=86=D0=B8=D1=8F =D0=BD=D0=B5=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=
+=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0, TRIAL - =D1=82=D0=B5=D1=81=D1=82=
+=D0=BE=D0=B2=D1=8B=D0=B9 =D1=80=D0=B5=D0=B6=D0=B8=D0=BC)<span style=3D"colo=
+r:#172b4d;">;</span></li>
+          <li data-uuid=3D"32f3f3c7-b072-47f5-8b8c-bb856196381a">"getRegExp=
+irationDate"<span> <span>(=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=
+=D0=B0=D0=BB "=D0=A0<span style=3D"color:#172b4d;">=D0=B5=D0=B3=D0=B8=D1=81=
+=D1=82=D1=80=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=
+=D0=B0 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D1=82=
+=D0=B8=D1=8F =D1=81=D1=87=D1=91=D1=82=D0=B0 =D0=B8 =D0=BF=D0=BE=D0=B4=D0=BA=
+=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=87=D1=91=D1=82=D0=B0" =
+- <span style=3D"color:#172b4d;">=D0=A7=D0=A2=D0=97 <a href=3D"https://conf=
+luence.artsofte.ru/x/zrwhEQ" rel=3D"nofollow">70-56</a> =D0=BF. 4.3, =D0=B0=
+ =D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=81=D0=BC. ChangeLog =D0=BF=D0=BE =D0=BE=
+=D1=81=D1=82=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC =D0=BF=D0=BE=D1=81=D1=82=
+=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B0=D0=BC</span></span>) </span></span>- =
+=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B0=D1=82=
+=D1=8B =D0=BE=D0=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D1=80=D0=B5=
+=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D0=BA=D0=BB=D0=B8=
+=D0=B5=D0=BD=D1=82=D0=B0. =D0=9C=D0=B5=D1=82=D0=BE=D0=B4 =D0=B2=D0=BE=D0=B7=
+=D0=B2=D1=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82 =D0=B4=D0=B0=D1=82=D1=83 =D0=BE=
+=D0=BA=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D1=80=D0=B5=D0=B3=D0=B8=
+=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=B8;</li>
+          <li data-uuid=3D"2776b048-23db-46a4-8a8d-898bda47b85d">"setOsslLo=
+gLevel"<span>&nbsp;</span>- =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=B0=D0=B2=D0=
+=BB=D0=B8=D0=B2=D0=B0=D0=B5=D1=82 =D1=83=D1=80=D0=BE=D0=B2=D0=B5=D0=BD=D1=
+=8C =D0=BB=D0=BE=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F Open=
+SSL =D0=B2=D0=BD=D1=83=D1=82=D1=80=D0=B8 SDK. =D0=9F=D0=BE=D0=B7=D0=B2=D0=
+=BE=D0=BB=D1=8F=D0=B5=D1=82 =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D1=8F=D1=
+=82=D1=8C =D0=B2=D0=BD=D1=83=D1=82=D1=80=D0=B5=D0=BD=D0=BD=D0=B8=D0=BC=D0=
+=B8 =D0=BA=D1=80=D0=B8=D0=BF=D1=82=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D1=
+=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC=D0=B8 =D0=BB=D0=BE=D0=B3=D0=B0=D0=BC=D0=
+=B8. =D0=9C=D0=BE=D0=B6=D0=BD=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=
+=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=B4=D0=BB=D1=8F =D0=B4=D0=B8=D0=B0=D0=
+=B3=D0=BD=D0=BE=D1=81=D1=82=D0=B8=D0=BA=D0=B8 TLS;</li>
+          <li data-uuid=3D"bb73af20-76f7-49a0-9d3a-26b72fcf7c09">"setupOssl=
+LogToFile"<span> - </span>=D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=B0=D0=B8=D0=B2=
+=D0=B0=D0=B5=D1=82 =D0=B2=D1=8B=D0=B2=D0=BE=D0=B4 =D0=BB=D0=BE=D0=B3=D0=BE=
+=D0=B2 OpenSSL =D0=B2 =D1=84=D0=B0=D0=B9=D0=BB;</li>
+          <li data-uuid=3D"89f0642c-1c39-493b-8b74-1c6930a529a5">"filterFil=
+e"<span>&nbsp;</span>- =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D1=8F=D0=B5=D1=
+=82=D1=81=D1=8F =D0=B4=D0=BB=D1=8F =D1=84=D0=B8=D0=BB=D1=8C=D1=82=D1=80=D0=
+=B0=D1=86=D0=B8=D0=B8 =D1=84=D0=B0=D0=B9=D0=BB=D0=BE=D0=B2 (=D0=B2 =D1=82=
+=D0=BE=D0=BC =D1=87=D0=B8=D1=81=D0=BB=D0=B5 =D0=B8 =D0=B4=D0=BB=D1=8F =D1=
+=84=D0=B0=D0=B9=D0=BB=D0=BE=D0=B2 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B8 =D1=86=D0=B5=D0=BB=D0=BE=D1=81=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=
+=B8) =D0=B8=D0=BB=D0=B8 =D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D0=BE=D0=B2 =
+=D0=BF=D1=80=D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B5 =D0=B1=
+=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=81=
+=D1=80=D0=B5=D0=B4=D1=8B. =D0=A0=D0=B0=D0=B1=D0=BE=D1=82=D0=B0=D0=B5=D1=82 =
+=D1=81=D0=BE=D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BD=D0=BE =D1=81 TrustEnvironm=
+entCallback.&nbsp;<br><br></li>
+         </ol></li>
+        <li><span style=3D"color:#172b4d;">=D0=98=D0=B7=D0=BC=D0=B5=D0=BD=
+=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D1=8B:</span>
+         <ol style=3D"text-align: left;">
+          <li data-uuid=3D"6c08930a-d968-4450-9a29-b6fb40d7fb5c">=D0=92 =D0=
+=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B5 "trustEnvironment"<span>&nbsp;</span>=D0=
+=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D0=BB=D1=81=D1=8F =D0=BD=D0=BE=D0=B2=D1=
+=8B=D0=B9 =D0=BD=D0=B5=D0=BE=D0=B1=D1=8F=D0=B7=D0=B0=D1=82=D0=B5=D0=BB=D1=
+=8C=D0=BD=D1=8B=D0=B9 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80 "fil=
+terEnvCb.TrustEnvironmentCallback". =D0=9F=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=
+=82=D1=80 =D0=BF=D0=BE=D0=B7=D0=B2=D0=BE=D0=BB=D1=8F=D0=B5=D1=82 =D0=BF=D0=
+=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D1=8C callback-=D0=BE=D0=B1=
+=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA, =D0=BA=D0=BE=D1=82=D0=BE=
+=D1=80=D1=8B=D0=B9 =D1=84=D0=B8=D0=BB=D1=8C=D1=82=D1=80=D1=83=D0=B5=D1=82 =
+=D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D1=8B =D1=81=D1=80=D0=B5=D0=B4=D1=8B =
+=D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D1=80=
+=D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B5 =D0=B4=D0=BE=D0=B2=
+=D0=B5=D1=80=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=D1=80=D0=B5=D0=B4=D1=8B. =
+=D0=9F=D1=80=D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D1=87=D0=B5 "filter=
+EnvCb" =D0=B4=D0=BB=D1=8F =D0=BA=D0=B0=D0=B6=D0=B4=D0=BE=D0=B3=D0=BE =D1=84=
+=D0=B0=D0=B9=D0=BB=D0=B0 =D1=81=D1=80=D0=B5=D0=B4=D1=8B =D1=84=D1=83=D0=BD=
+=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=
+=8F =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=B2=D1=8B=D0=B7=D0=B2=D0=B0=D0=BD =D1=
+=8D=D1=82=D0=BE=D1=82 callback, =D0=B2 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=
+=D0=BC =D0=BF=D1=80=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82=D1=81=D1=8F =
+=D1=80=D0=B5=D1=88=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B1 =D0=B8=D1=81=D0=BA=
+=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D0=B8 =D1=84=D0=B0=D0=B9=D0=BB=D0=B0 =
+=D0=B8=D0=B7 =D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=B0 =D0=BA=D0=BE=D0=BD=D1=82=
+=D1=80=D0=BE=D0=BB=D1=8F =D1=86=D0=B5=D0=BB=D0=BE=D1=81=D1=82=D0=BD=D0=BE=
+=D1=81=D1=82=D0=B8. =D0=9C=D0=BE=D0=B6=D0=B5=D1=82 =D0=B8=D1=81=D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F =D0=B2 =D1=81=
+=D0=BB=D1=83=D1=87=D0=B0=D0=B5, =D0=BA=D0=BE=D0=B3=D0=B4=D0=B0 =D0=BF=D1=80=
+=D0=B8=D0=BA=D0=BB=D0=B0=D0=B4=D0=BD=D0=BE=D0=B5 =D0=9F=D0=9E =D1=81=D0=BE=
+=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D1=82 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=
+=D0=B5=D0=BD=D1=82=D1=8B, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B8=
+=D0=B7=D0=BC=D0=B5=D0=BD=D1=8F=D1=8E=D1=82 =D1=81=D1=80=D0=B5=D0=B4=D1=83 =
+=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F =D0=BF=D1=80=D0=B8 =D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D1=
+=85 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0=D1=85:=20
+           <ol style=3D"text-align: left;">
+            <li data-uuid=3D"701b7b9d-b6eb-4be7-932b-fa6d2268bacb"><span st=
+yle=3D"color:#172b4d;">=D0=B8=D1=81=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D1=82=D1=
+=8C =D1=84=D0=B0=D0=B9=D0=BB "</span><span style=3D"color:#172b4d;">environ=
+ment.prg"</span><span style=3D"color:#172b4d;"><span style=3D"color:#626f86=
+;"><span>&nbsp;</span></span>=D0=B8=D0=B7 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=
+=80=D0=BA=D0=B8 =D1=86=D0=B5=D0=BB=D0=BE=D1=81=D1=82=D0=BD=D0=BE=D1=81=D1=
+=82=D0=B8 =D0=BF=D1=80=D0=B8=D0=BA=D0=BB=D0=B0=D0=B4=D0=BD=D0=BE=D0=B3=D0=
+=BE =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=BD=D0=BE=D0=B3=D0=
+=BE =D0=BE=D0=B1=D0=B5=D1=81=D0=BF=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D1=8F, =D0=
+=B0=D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8=D1=87=D0=BD=D0=BE =D0=A7=D0=A2=D0=
+=97 <a href=3D"https://confluence.artsofte.ru/x/tsIhEQ" rel=3D"nofollow">70=
+-42</a> =D0=BF. 4.1.1.&nbsp;</span></li>
+           </ol></li>
+         </ol></li>
+       </ol>
+      </div>
+      <p></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <p><span>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=
+=D1=8B=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D1=8B =D0=BD=D0=B0 =D0=BF=D1=80=
+=D0=BE=D0=B5=D0=BA=D1=82=D0=B5:</span></p>
+     <p><span>1) "trustEnvironment" - =D0=BF=D0=B5=D1=80=D0=B5=D1=81=D1=87=
+=D1=91=D1=82 =D0=B8 =D1=81=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C=D0=BD=D0=BE=D0=B9 =
+=D1=81=D1=83=D0=BC=D0=BC=D1=8B =D0=A1=D0=A4.&nbsp;</span></p>
+     <p><br></p>
+     <p><span>=D0=9D=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=
+=D1=8B =D0=BD=D0=B0 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B5:&nbsp;</span=
+></p>
+     <p><span>2) "<span style=3D"color:#172b4d;">createCommonRequest</span>=
+" - <span style=3D"color:#172b4d;">=D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=
+=B8=D0=B5 =D1=83=D0=BD=D0=B8=D0=B2=D0=B5=D1=80=D1=81=D0=B0=D0=BB=D1=8C=D0=
+=BD=D0=BE=D0=B3=D0=BE =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0 =D0=BD=D0=
+=B0 =D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82;</span></s=
+pan></p>
+     <p><span>3) "</span>getRegistrationStatus<span>" - =D0=BF=D0=BE=D0=BB=
+=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D0=B0=D1=82=D1=83=D1=81=
+=D0=B0 =D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =
+=D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0;</span></p>
+     <p><span>4) "</span>getRegExpirationDate<span>" - =D0=BF=D0=BE=D0=BB=
+=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=D0=B0=D1=82=D1=8B =D0=BE=D0=BA=
+=D0=BE=D0=BD=D1=87=D0=B0=D0=BD=D0=B8=D1=8F =D1=80=D0=B5=D0=B3=D0=B8=D1=81=
+=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=
+=D0=B0;</span></p>
+     <p><span>5) "</span>setOsslLogLevel<span>" - =D1=83=D1=81=D1=82=D0=B0=
+=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D1=83=D1=80=D0=BE=D0=B2=
+=D0=B5=D0=BD=D1=8F =D0=BB=D0=BE=D0=B3=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=
+=D0=B8=D1=8F OpenSSL =D0=B2=D0=BD=D1=83=D1=82=D1=80=D0=B8 SDK;</span></p>
+     <p><span>6) "</span>setupOsslLogToFile<span>" - =D0=B2=D1=8B=D0=B2=D0=
+=BE=D0=B4 =D0=BB=D0=BE=D0=B3=D0=BE=D0=B2 OpenSSL =D0=B2 =D1=84=D0=B0=D0=B9=
+=D0=BB;</span></p>
+     <p><span>7) "</span>filterFile<span>" - =D1=84=D0=B8=D0=BB=D1=8C=D1=82=
+=D1=80=D0=B0=D1=86=D0=B8=D1=8F =D1=84=D0=B0=D0=B9=D0=BB=D0=BE=D0=B2 =D0=B8=
+=D0=BB=D0=B8 =D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D0=BE=D0=B2 =D0=BF=D1=80=
+=D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B5 =D0=B1=D0=B5=D0=B7=
+=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=81=D1=80=D0=B5=
+=D0=B4=D1=8B.&nbsp;</span></p></td>
+    <td colspan=3D"1" class=3D"confluenceTd">
+     <p><span>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=
+=D1=8B=D0=B5 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80=D1=8B =D0=BD=
+=D0=B0 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=B5:</span></p>
+     <p><span>-</span></p>
+     <p><br></p>
+     <p><span>=D0=9D=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=
+=D0=B5=D1=82=D1=80=D1=8B =D0=BD=D0=B0 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=
+=D0=B5:&nbsp;</span></p>
+     <p>1) =D0=9C=D0=B5=D1=82=D0=BE=D0=B4 1:</p>
+     <p style=3D"margin-left: 40.0px;">1.1) filterEnvCb.TrustEnvironmentCal=
+lback - =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80 =D0=B4=D0=BB=D1=8F=
+ =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D1=87=D0=B8 callback-=D0=BE=D0=B1=D1=
+=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA=D0=B0.</p>
+     <p><br></p></td>
+    <td colspan=3D"1" class=3D"confluenceTd">-</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h1 data-nh-numbering=3D"5. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-=D0=9C=D0=B0=D0=BA=D0=B5=D1=82"><span class=3D"nh-number=
+">5. </span>=D0=9C=D0=B0=D0=BA=D0=B5=D1=82</h1>
+<p>=D0=9D=D0=B5 =D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D0=B8=D0=BC=D0=BE.&nbs=
+p;</p>
+<h1 data-nh-numbering=3D"6. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-=D0=92=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=
+=D1=81=D1=82=D0=B2=D0=B8=D0=B5=D1=81=D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=
+=BE=D0=BC"><span class=3D"nh-number">6. </span>=D0=92=D0=B7=D0=B0=D0=B8=D0=
+=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D0=B5 =D1=81 =D1=81=D0=
+=B5=D1=80=D0=B2=D0=B5=D1=80=D0=BE=D0=BC</h1>
+<h2 style=3D"text-align: left;" data-nh-numbering=3D"6.1. " id=3D"id-7064M=
+=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=
+=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=
+=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B82.0.3.157-=D0=9F=D0=9C=D0=91=D0=
+=A02.0.3.157"><span class=3D"nh-number">6.1. </span>=D0=9F=D0=9C=D0=91=D0=
+=A0 <span style=3D"color:#172b4d;"><span>2.0.3.157</span></span></h2>
+<p><a href=3D"https://docviewer.yandex.ru/view/987816238/?*=3DSOYTOcQBWSbBt=
+P3eNIBP2dWnxmh7InVybCI6InlhLWRpc2stcHVibGljOi8vbjVMQ0hkZlJzRis1U2VsWGxjbGxt=
+Q2VMVFZRbSs2cU0zSVhlM3dPOU4ycUh4K3NuSXltV3Z5dWxjVXozdnFubXEvSjZicG1SeU9Kb25=
+UM1ZvWG5EYWc9PSIsInRpdGxlIjoi0J%2FQnCDQkdCgLnppcCIsIm5vaWZyYW1lIjpmYWxzZSwi=
+dWlkIjoiOTg3ODE2MjM4IiwidHMiOjE3NzMzOTg4MzA3MDksInl1IjoiNTYyMDM5MTMxMTY5MzU=
+2NDEwNCJ9" class=3D"external-link" rel=3D"nofollow">=D0=9F=D0=9C =D0=91=D0=
+=A0 Android_2.0.3.157</a></p>
+<h1 data-nh-numbering=3D"7. " id=3D"id-7064M=D0=A6=D0=A0SDK.=D0=9E=D0=B1=D0=
+=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8CSDK=D0=B2=D0=BF=D0=BB=D0=B0=D0=B3=D0=B8=D0=
+=BD=D0=B5CordovaInfotecsDigitalRur=D0=B4=D0=BE=D0=B2=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B82.0.3.157-=D0=A2=D0=B5=D1=81=D1=82-=D0=BA=D0=B5=D0=B9=D1=81=D1=8B"=
+><span class=3D"nh-number">7. </span><span>=D0=A2=D0=B5=D1=81=D1=82-=D0=BA=
+=D0=B5=D0=B9=D1=81=D1=8B</span></h1>
+<p><span style=3D"color:#172b4d;">=D0=9F=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=
+=82=D0=B0=D0=B2=D0=BB=D1=8F=D1=8E=D1=82=D1=81=D1=8F =D0=B1=D0=B0=D0=BD=D0=
+=BA=D0=BE=D0=BC.</span></p>
+    </div>
+</body>
+</html>
+------=_Part_5853_1720509450.1784638939220--
