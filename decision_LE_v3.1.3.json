@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "DecisionLegal",
+  "description": "Результат проверки финансовой транзакции ЮЛ",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "Описание результата работы"
+    },
+    "hoursDelay": {
+      "type": "integer",
+      "description": "Время, на которое платеж будет отложен (часы)"
+    },
+    "absId": {
+      "type": "string",
+      "description": "Идентификатор операции АБС"
+    },
+    "dboId": {
+      "type": "string",
+      "description": "Идентификатор операции ДБО"
+    },
+    "operationAfsId": {
+      "type": "string",
+      "description": "Идентификатор операции САФ"
+    },
+    "digitalRubOperationId": {
+      "type": "string",
+      "description": "Идентификатор операции с ЦР"
+    },    
+    "resolution": {
+      "type": "string",
+      "enum": [
+        "ERROR",
+        "OK",
+        "STOP",
+        "WAIT",
+        "FROZEN",
+        "UNFROZEN"
+      ],
+      "description": "Результат проверки по правилам"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Время передачи данных"
+    }
+  },
+  "required": [
+    "description",
+    "absId",
+    "dboId",
+    "operationAfsId",
+    "resolution",
+    "timestamp"
+  ],
+  "anyOf": [
+    {
+      "required": ["absId", "dboId"]
+    },
+    {
+      "required": ["digitalRubOperationId"]
+    }    
+  ]  
+
+}

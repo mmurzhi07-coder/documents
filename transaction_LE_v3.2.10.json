@@ -1,0 +1,678 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "TransactionLegal",
+  "description": "Финансовая транзакция ЮЛ",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "system": {
+      "$ref": "#/definitions/System",
+      "description": "Системные данные"
+    },
+    "payment": {
+      "$ref": "#/definitions/Payment",
+      "description": "Данные платежа"
+    },
+    "mainClient": {
+      "$ref": "#/definitions/MainClient",
+      "description": "Основной Клиент"
+    },
+    "counterparty": {
+      "$ref": "#/definitions/Counterparty",
+      "description": "Контрагент"
+    }
+  },
+  "required": [
+    "system",
+    "payment",
+    "mainClient",
+    "counterparty"
+  ],
+  "definitions": {
+    "System": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "startDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Дата/время формирования сообщения"
+        }
+      },
+      "required": [
+        "startDate"
+      ]
+    },
+    "Payment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rurSum": {
+          "type": "number",
+          "description": "Сумма в рублях"
+        },
+        "sum": {
+          "type": "number",
+          "description": "Сумма в указанной валюте"
+        },
+        "rurCommission": {
+          "type": "number",
+          "description": "Комиссия в рублях"
+        },
+        "commission": {
+          "type": "number",
+          "description": "Комиссия в указанной валюте"
+        },
+        "rurFullAmount": {
+          "type": "number",
+          "description": "Полная сумма в рублях"
+        },
+        "fullAmount": {
+          "type": "number",
+          "description": "Полная сумма в указанной валюте"
+        },
+        "rurCurrentAmount": {
+          "type": "number",
+          "description": "Остаток в рублях до платежа"
+        },
+        "currentAmount": {
+          "type": "number",
+          "description": "Остаток в валюте счета до платежа"
+        },
+        "paymentDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Дата/время платежа"
+        },
+        "documentDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Дата документа"
+        },
+        "ip": {
+          "type": "string",
+          "maxLength": 50,
+          "description": "IP-адрес"
+        },
+        "purpose": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Назначение платежа"
+        },
+        "dboId": {
+          "type": "string",
+          "maxLength": 50,
+          "description": "Идентификатор платежа в ДБО"
+        },
+        "absId": {
+          "type": "string",
+          "maxLength": 50,
+          "description": "Идентификатор платежа в АБС"
+        },
+        "digitalRubOperationId": {
+          "type": "string",
+          "description": "Идентификатор операции с ЦР"
+        },        
+        "channelCode": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Код канала формирования платежа"
+        },
+        "currencyCode": {
+          "$ref": "#/definitions/currencyCode"
+        },
+        "paymentType": {
+          "type": "string",
+          "maxLength": 4,
+          "description": "Код типа платежа"
+        }
+      },
+      "required": [
+        "rurSum",
+        "sum",
+        "rurCommission",
+        "commission",
+        "rurFullAmount",
+        "fullAmount",
+        "paymentDate",
+        "ip",
+        "purpose",
+        "channelCode",
+        "currencyCode",
+        "paymentType"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "dboId",
+            "absId"
+            ]
+        },
+        {
+          "required": ["digitalRubOperationId"]
+        }        
+      ]      
+    },
+    "MainClient": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "clientInfo": {
+          "$ref": "#/definitions/ClientInfo",
+          "description": "Информация о Клиенте"
+        },
+        "account": {
+          "$ref": "#/definitions/Account",
+          "description": "Счет"
+        },
+        "contacts": {
+          "$ref": "#/definitions/Contacts",
+          "description": "Контактная информация"
+        },
+        "device": {
+          "$ref": "#/definitions/Device",
+          "description": "Устройство"
+        },
+        "facctInfo": {
+          "$ref": "#/definitions/FacctInfo",
+          "description": "Информация от F.A.C.C.T."
+        },
+        "digitalRubPlatform": {
+          "$ref": "#/definitions/DigitalRubPlatform",
+          "description": "Платформа Цифрового Рубля"
+        }          
+      },
+      "required": [
+        "clientInfo",
+        "account",
+        "facctInfo"
+      ]
+    },
+    "ClientInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "clientAbsUid": {
+          "$ref": "#/definitions/clientAbsUid"
+        },
+        "clientDboUid": {
+          "type": "string",
+          "maxLength": 50,
+          "description": "ID Клиента в ДБО"
+        },
+        "clientDigRubUid": {
+          "type": "string",
+          "description": "ID Клиента в ПлЦР"
+        },        
+        "inn": {
+          "$ref": "#/definitions/inn"
+        },
+        "kpp": {
+          "$ref": "#/definitions/kpp"
+        },
+        "fullName": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Полное наименование Клиента на русском языке"
+        },
+        "shortName": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Сокращенное наименование Клиента на русском языке"
+        },
+        "latinFullName": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Полное наименование Клиента на иностранном языке (или латинскими буквами)"
+        },
+        "latinShortName": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Сокращенное наименование Клиента на иностранном языке (или латинском языке)"
+        },
+        "clientType": {
+          "$ref": "#/definitions/clientType"
+        },
+        "vip": {
+          "type": "boolean",
+          "description": "Признак VIP Клиента"
+        },
+        "registrationAddress": {
+          "type": "string",
+          "maxLength": 1000,
+          "description": "Адрес регистрации"
+        },
+        "residenceAddress": {
+          "type": "string",
+          "maxLength": 1000,
+          "description": "Фактический адрес"
+        },
+        "branchCode": {
+          "$ref": "#/definitions/branchCode"
+        },
+        "clientRegistrationDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Дата регистрации Клиента в Банке"
+        },
+        "dboRegistrationDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Дата регистрации в ДБО"
+        },
+        "beneficialOwnersInfo": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Сведения о бенефициарных владельцах (ФИО)"
+        },
+        "beneficialOwnershipReasons": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Основания бенефициарного владения"
+        },
+        "beneficialOwnersInfoChangeDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Дата смены сведений о бенефициарных владельцах"
+        },
+        "eSignatureOwnersInfo": {
+          "type": "string",
+          "maxLength": 1000,
+          "description": "Перечень владельцев ключей ЭП (ФИО) и срок полномочий владельцев ключей ЭП"
+        },
+        "clientQuestionnaireUpdateDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Дата обновления идентификационной анкеты ЮЛ/ИП"
+        }
+      },
+      "required": [
+        "clientAbsUid",
+        "inn",
+        "fullName",
+        "shortName",
+        "clientType",
+        "vip",
+        "registrationAddress",
+        "clientRegistrationDate"
+      ]
+    },
+    "Account": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bic": {
+          "$ref": "#/definitions/bic"
+        },
+        "accountNumber": {
+          "$ref": "#/definitions/accountNumber"
+        },
+        "currencyCode": {
+          "$ref": "#/definitions/currencyCode"
+        },
+        "accountOpenDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Дата открытия счета"
+        },
+        "branchName": {
+          "$ref": "#/definitions/branchName"
+        },
+        "branchCode": {
+          "$ref": "#/definitions/branchCode"
+        },
+        "officeAddress": {
+          "$ref": "#/definitions/officeAddress"
+        },
+        "officeCode": {
+          "$ref": "#/definitions/officeCode"
+        },
+        "officeName": {
+          "$ref": "#/definitions/officeName"
+        }
+      },
+      "required": [
+        "accountNumber",
+        "currencyCode",
+        "bic"        
+      ]
+    },
+    "Contacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Contact"
+      }
+    },
+    "Contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "maxLength": 50,
+          "enum": [
+            "CONTACT_PHONE",
+            "FAX",
+            "EMAIL",
+            "WEBSITE"
+          ],
+          "description": "Тип контакта"
+        },
+        "value": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Значение контакта"
+        }
+      },
+      "dependentRequired": {
+        "type": ["value"],
+        "value": ["type"]
+      }
+    },
+    "Device": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "browser": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Браузер"
+        },
+        "deviceFingerprint": {
+          "type": "string",
+          "maxLength": 50,
+          "description": "Идентификатор устройства"
+        },
+        "hardwareToken": {
+          "type": "string",
+          "maxLength": 255,
+          "description": "Аппаратный токен"
+        },
+        "ifv": {
+          "type": "string",
+          "maxLength": 50,
+          "description": "Identifier for vendor"
+        },
+        "imei": {
+          "type": "string",
+          "maxLength": 15,
+          "description": "IMEI"
+        }
+        },
+      "required": [
+        "deviceFingerprint"
+      ]
+    },
+    "FacctInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "loginHash": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Идентификатор учетной записи в ДБО"
+        }
+      },
+      "required": [
+        "loginHash"
+      ]
+    },
+    "DigitalRubPlatform": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "memberId": {
+          "type": "string",
+          "description": "Идентификатор участника платформы"
+        },
+        "memberName": {
+          "type": "string",
+          "description": "Наименование участника платформы"
+        }  
+      }
+    },    
+    "Counterparty": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "accountCounterparty": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Контрагент с БИК и номером счета РФ",
+          "$ref": "#/definitions/AccountCounterparty"
+        },
+        "swiftCounterparty": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Контрагент со SWIFT и IBAN или номером счета РФ",
+          "$ref": "#/definitions/SwiftCounterparty"
+        },
+        "digitalRubCounterparty": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Контрагент Цифрового Рубля",
+          "$ref": "#/definitions/DigitalRubCounterparty"
+        }           
+      },
+      "oneOf": [
+        {
+          "required": [
+            "accountCounterparty"
+          ]
+        },
+        {
+          "required": [
+            "swiftCounterparty"
+          ]
+        },
+        {
+          "required": [
+            "digitalRubCounterparty"
+          ]
+        }        
+      ]
+    },
+    "AccountCounterparty": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "accountNumber": {
+          "$ref": "#/definitions/accountNumber"
+        },
+        "bic": {
+          "$ref": "#/definitions/bic"
+        },
+        "inn": {
+          "$ref": "#/definitions/inn"
+        },
+        "kpp": {
+          "$ref": "#/definitions/kpp"
+        },
+        "name": {
+          "$ref": "#/definitions/name"
+        },
+        "branchName": {
+          "$ref": "#/definitions/branchName"
+        },
+        "branchCode": {
+          "$ref": "#/definitions/branchCode"
+        },
+        "currencyCode": {
+          "$ref": "#/definitions/currencyCode"
+        },
+        "officeAddress": {
+          "$ref": "#/definitions/officeAddress"
+        },
+        "officeCode": {
+          "$ref": "#/definitions/officeCode"
+        },
+        "officeName": {
+          "$ref": "#/definitions/officeName"
+        },
+        "clientAbsUid": {
+          "$ref": "#/definitions/clientAbsUid"
+        },
+        "clientType": {
+          "$ref": "#/definitions/clientType"
+        }
+      },
+      "required": [
+        "accountNumber",
+        "bic",
+        "name",
+        "branchName"
+      ],
+      "dependentRequired": {
+        "clientAbsUid": ["clientType"],
+        "clientType": ["clientAbsUid"]
+      }
+    },
+    "SwiftCounterparty": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "swift": {
+          "type": "string",
+          "maxLength": 11,
+          "description": "SWIFT-код"
+        },
+        "iban": {
+          "type": "string",
+          "maxLength": 34,
+          "description": "IBAN или номер счета РФ"
+        },
+        "inn": {
+          "$ref": "#/definitions/inn"
+        },
+        "kpp": {
+          "$ref": "#/definitions/kpp"
+        },
+        "name": {
+          "$ref": "#/definitions/name"
+        },
+        "branchName": {
+          "$ref": "#/definitions/branchName"
+        },
+        "currencyCode": {
+          "$ref": "#/definitions/currencyCode"
+        }
+        },
+      "required": [
+        "swift",
+        "iban",
+        "name",
+        "branchName"
+      ]
+    },
+    "DigitalRubCounterparty": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "accountNumber": {
+          "type": "string",
+          "description": "Номер счета ЦР"
+        },
+        "walletId": {
+          "type": "string",
+          "description": "Идентификатор СЦР на ПлЦР"
+        },         
+        "inn": {
+          "type": "string",
+          "description": "ИНН"
+        },
+        "ogrn": {
+          "type": "string",
+          "description": "ОГРН"
+        },
+        "kpp": {
+          "type": "string",
+          "description": "КПП"
+        }                
+      },
+      "oneOf": [
+        {
+          "required": [
+            "accountNumber"
+          ]
+        },
+        {
+          "required": [
+            "walletId"
+          ]
+        },
+        {
+          "required": [
+            "inn",
+            "ogrn",
+            "kpp"
+          ]
+        }
+      ]
+    },    
+    "clientAbsUid": {
+      "type": "string",
+      "maxLength": 50,
+      "description": "ID Клиента в АБС"
+    },
+    "clientType": {
+      "type": "string",
+      "enum": ["LEGAL","PERSONAL_BUSINESS"],
+      "description": "Тип клиента (ЮЛ/ИП)"
+    },
+     "inn": {
+      "type": "string",
+      "maxLength": 12,
+      "description": "ИНН"
+    },
+    "kpp": {
+      "type": "string",
+      "maxLength": 10,
+      "description": "КПП"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255,
+      "description": "Наименование контрагента"
+    },
+    "currencyCode": {
+      "type": "string",
+      "maxLength": 3,
+      "description": "Буквенный код валюты счета или платежа"
+    },
+    "accountNumber": {
+      "type": "string",
+      "maxLength": 20,
+      "description": "Номер счета"
+    },
+    "bic": {
+      "type": "string",
+      "maxLength": 9,
+      "description": "БИК Банка"
+    },
+     "branchCode": {
+      "type": "string",
+      "maxLength": 4,
+      "description": "Код филиала Банка"
+    },
+    "branchName": {
+      "type": "string",
+      "maxLength": 255,
+      "description": "Наименование Банка или филиала"
+    },
+    "officeAddress": {
+      "type": "string",
+      "maxLength": 255,
+      "description": "Адрес отделения Банка открытия счета"
+    },
+    "officeCode": {
+      "type": "string",
+      "maxLength": 4,
+      "description": "Код отделения Банка открытия счета"
+    },
+    "officeName": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Наименование отделения Банка открытия счета"
+    }
+  }
+}
