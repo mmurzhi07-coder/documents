@@ -1,0 +1,1229 @@
+Date: Wed, 5 Aug 2026 12:05:25 +0300 (MSK)
+Message-ID: <1970966759.8914.1785920725971@mlv-confl02.mosksrv.banksoyuz.ru>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8913_1304233488.1785920725971"
+
+------=_Part_8913_1304233488.1785920725971
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Worker :: B2BCrossBorderRecipientNotificationService (cbdc-core)=
+</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Worker :: B2BCrossBorderRecipientNotificationService (cbdc-core)</h=
+1>
+    <div class=3D"Section1">
+        <p class=3D"code-line"><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1785920725876 {padding: 0px;}
+div.rbtoc1785920725876 ul {margin-left: 0px;}
+div.rbtoc1785920725876 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1785920725876">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=98=D1=81=D1=82=D0=BE=D1=80=D0=B8=D1=8F=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=
+=D0=B5=D0=BD=D0=B8=D0=B9">=D0=98=D1=81=D1=82=D0=BE=D1=80=D0=B8=D1=8F =D0=B8=
+=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=9D=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5">=D0=9D=D0=
+=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A1=D1=85=D0=B5=D0=BC=D0=B0=D0=B2=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=
+=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F">=D0=A1=D1=85=D0=B5=D0=BC=D0=B0 =
+=D0=B2=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=
+=B8=D1=8F</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=90=D0=BB=D0=B3=D0=BE=D1=80=D0=B8=D1=82=D0=BC">=D0=90=D0=BB=D0=B3=D0=
+=BE=D1=80=D0=B8=D1=82=D0=BC</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0cbdc.777B2BCrossBor=
+derRecipientNotification">=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=
+=D0=B0 cbdc.777 B2BCrossBorderRecipientNotification</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B31.=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5=D0=
+=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8">=D0=A8=D0=B0=D0=B3 1. =D0=A1=
+=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=
+=D1=86=D0=B8=D0=B8</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B32.=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=
+=B8=D0=B5=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F">=D0=A8=D0=
+=B0=D0=B3 2. =D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =
+=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B33.=D0=9F=D0=B5=D1=80=D0=B5=D1=81=D1=8B=D0=BB=D0=BA=D0=
+=B0=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=83-=D0=BF=D0=BE=D0=BB=D1=83=D1=
+=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8E">=D0=A8=D0=B0=D0=B3 3. =D0=9F=D0=B5=D1=80=
+=D0=B5=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=
+=D1=83-=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8E</a></li=
+>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B34.=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0=D0=
+=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F=D0=BF=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=
+=D0=BE=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=D0=B8=D0=B7=D0=
+=B0=D0=BF=D1=83=D1=81=D0=BA=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=
+=82=D1=80=D0=BE=D0=BB=D1=8F">=D0=A8=D0=B0=D0=B3 4. =D0=9F=D1=80=D0=BE=D0=B2=
+=D0=B5=D1=80=D0=BA=D0=B0 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F =D0=BF=
+=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=B8 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA =D0=BF=D0=BE=
+=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B35.=D0=97=D0=B0=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=
+=B8=D0=B5=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8">=D0=A8=D0=B0=D0=
+=B3 5. =D0=97=D0=B0=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=
+=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8</a></li>
+</ul></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0cbdc.778CrossBorder=
+InfoRecipientNotification">=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=
+=D0=B0 cbdc.778 CrossBorderInfoRecipientNotification</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B31.=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=
+=B5=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8">=D0=A8=D0=B0=D0=B3 1. =
+=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=BF=D0=B5=
+=D1=80=D0=B0=D1=86=D0=B8=D0=B8</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B32.=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=
+=B8=D0=B5=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F.1">=D0=A8=
+=D0=B0=D0=B3 2. =D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F</a></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=A8=D0=B0=D0=B33.=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0=D0=
+=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F=D0=BF=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=
+=D0=BE=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=D0=B8=D0=B7=D0=
+=B0=D0=BF=D1=83=D1=81=D0=BA=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=
+=82=D1=80=D0=BE=D0=BB=D1=8F">=D0=A8=D0=B0=D0=B3 3. =D0=9F=D1=80=D0=BE=D0=B2=
+=D0=B5=D1=80=D0=BA=D0=B0 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F =D0=BF=
+=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=B8 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA =D0=BF=D0=BE=
+=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F</a></li>
+</ul></li>
+<li><a href=3D"#Worker::B2BCrossBorderRecipientNotificationService(cbdccore=
+)-=D0=97=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=
+=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F(=D0=BE=D0=B1=D1=89=D0=B8=D0=B9=D0=B4=
+=D0=BB=D1=8F=D0=BE=D0=B1=D0=BE=D0=B8=D1=85=D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D1=87=D0=B8=D0=BA=D0=BE=D0=B2)">=D0=97=D0=B0=D0=BF=D1=83=D1=81=D0=
+=BA =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=
+=8F (=D0=BE=D0=B1=D1=89=D0=B8=D0=B9 =D0=B4=D0=BB=D1=8F =D0=BE=D0=B1=D0=BE=
+=D0=B8=D1=85 =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA=
+=D0=BE=D0=B2)</a></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+<h1 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=98=D1=81=D1=82=D0=BE=D1=80=D0=B8=D1=8F=D0=B8=D0=B7=D0=
+=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9">=D0=98=D1=81=D1=82=D0=BE=D1=80=D0=
+=B8=D1=8F =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9</h1>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">=E2=84=96</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=94=D0=B0=D1=82=
+=D0=B0</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=90=D0=B2=D1=82=
+=D0=BE=D1=80</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=98=D0=B7=D0=BC=
+=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh">=D0=A1=D1=81=D1=8B=
+=D0=BB=D0=BA=D0=B0 =D0=BD=D0=B0 Jira</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2026-04-03" class=3D"date-past">03.04.2026</time>&nbsp=
+;</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"ShishkovE=
+M@mosk.banksoyuz.ru" href=3D"/display/~ShishkovEM@mosk.banksoyuz.ru" data-l=
+inked-resource-id=3D"277371362" data-linked-resource-version=3D"1" data-lin=
+ked-resource-type=3D"userinfo" data-base-url=3D"https://wiki.ingobank.ru">=
+=D0=A8=D0=B8=D1=88=D0=BA=D0=BE=D0=B2 =D0=95=D0=B2=D0=B3=D0=B5=D0=BD=D0=B8=
+=D0=B9 =D0=9C=D0=B8=D1=85=D0=B0=D0=B9=D0=BB=D0=BE=D0=B2=D0=B8=D1=87</a>&nbs=
+p;</p>
+</div></td>
+<td class=3D"confluenceTd">=D0=9F=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D0=BE=
+=D0=B5 =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"jira-issue" data-jira-key=3D"CBDC-1947" data-client-id=3D=
+"SINGLE_6b9b6ab5-db77-3d47-b0ab-50a27a3f7b54_298505087_8a3184549f276af0019f=
+2807d3bc0000"> <a href=3D"https://jira.ingobank.ru/browse/CBDC-1947" class=
+=3D"jira-issue-key"><span class=3D"aui-icon aui-icon-wait issue-placeholder=
+"></span>CBDC-1947</a> - <span class=3D"summary">=D0=9F=D0=BE=D0=BB=D1=83=
+=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BF=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=
+=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BF=D1=80=D0=BE=D0=B1=
+=D0=BB=D0=B5=D0=BC=D1=8B...</span> <span class=3D"aui-lozenge aui-lozenge-s=
+ubtle aui-lozenge-default issue-placeholder">=D0=A1=D0=A2=D0=90=D0=A2=D0=A3=
+=D0=A1</span> </span></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=9D=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=
+=B5">=D0=9D=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5</h1>
+<p class=3D"code-line">=D0=92=D0=BE=D1=80=D0=BA=D0=B5=D1=80, =D0=BF=D1=80=
+=D0=B5=D0=B4=D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8B=D0=
+=B9 =D0=B4=D0=BB=D1=8F =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=
+=B8 =D0=B2=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B8=D1=85 =D1=83=D0=B2=D0=B5=D0=
+=B4=D0=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B9 =D0=A4=D0=9F =D0=BF=D1=80=D0=
+=B8 =D0=B2=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B5=D0=BC =D1=82=D1=80=D0=B0=D0=
+=BD=D1=81=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=BD=D0=BE=D0=BC =D0=BF=D0=
+=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=B5 B2B (<a href=3D"/pages/viewpage.act=
+ion?pageId=3D298503233">CBDC :: =D0=AD=D0=94. =D0=90=D0=BB=D1=8C=D0=B1=D0=
+=BE=D0=BC =D0=AD=D0=A1. =D0=9F=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D0=B0 =D0=BE=
+=D0=B1=D0=BC=D0=B5=D0=BD=D0=B0 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=
+=D0=B8=D1=8F=D0=BC=D0=B8 (2026.07)</a> - =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=
+=81=D1=81 4.65, =D1=88=D0=B0=D0=B3=D0=B8 2-4). =D0=92=D1=8B=D0=BF=D0=BE=D0=
+=BB=D0=BD=D1=8F=D0=B5=D1=82 =D1=80=D0=BE=D0=BB=D1=8C =D0=A4=D0=9F =D0=9A=D0=
+=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0-=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=
+=82=D0=B5=D0=BB=D1=8F.</p>
+<p class=3D"code-line">=D0=97=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0=D0=B5=D1=
+=82=D1=81=D1=8F =D0=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=
+=BD=D0=B8=D0=B8 =D0=B8=D0=B7 Kafka (=D1=82=D0=BE=D0=BF=D0=B8=D0=BA<span> <a=
+ href=3D"/display/CBDC/DM+%3A%3A+cc-core-messages">DM :: cc-core-messages</=
+a></span>) =D0=B4=D0=B2=D1=83=D1=85 =D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=83=
+=D0=B2=D0=B5=D0=B4=D0=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B9 =D0=BE=D1=82 =
+=D0=A0=D0=9E=D0=A0=D0=94:</p>
+<ul class=3D"code-line">
+<li class=3D"code-line"><a href=3D"/download/attachments/299218236/cbdc.777=
+.001.04.B2BCrossBorderRecipientNotification_2026.07.xsd?version=3D1&amp;mod=
+ificationDate=3D1774715530390&amp;api=3Dv2" data-linked-resource-id=3D"2992=
+18446" data-linked-resource-version=3D"1" data-linked-resource-type=3D"atta=
+chment" data-linked-resource-default-alias=3D"cbdc.777.001.04.B2BCrossBorde=
+rRecipientNotification_2026.07.xsd" data-linked-resource-content-type=3D"ap=
+plication/octet-stream" data-linked-resource-container-id=3D"299218236" dat=
+a-linked-resource-container-version=3D"2">cbdc.777.001.04.B2BCrossBorderRec=
+ipientNotification_2026.07.xsd</a>&nbsp;- =D0=B8=D0=B7=D0=B2=D0=B5=D1=89=D0=
+=B5=D0=BD=D0=B8=D0=B5 =D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0-=D0=BF=D0=
+=BE=D0=BB=D1=83=D1=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8F =D0=BE=D0=B1 =D0=B8=D1=
+=81=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B8 =D0=A2=D0=93=D0=9F</li>
+<li class=3D"code-line"><a href=3D"/download/attachments/299218236/cbdc.778=
+.001.01.CrossBorderInfoRecipientNotification_2026.07.xsd?version=3D1&amp;mo=
+dificationDate=3D1774715521080&amp;api=3Dv2" data-linked-resource-id=3D"299=
+218429" data-linked-resource-version=3D"1" data-linked-resource-type=3D"att=
+achment" data-linked-resource-default-alias=3D"cbdc.778.001.01.CrossBorderI=
+nfoRecipientNotification_2026.07.xsd" data-linked-resource-content-type=3D"=
+application/octet-stream" data-linked-resource-container-id=3D"299218236" d=
+ata-linked-resource-container-version=3D"2">cbdc.778.001.01.CrossBorderInfo=
+RecipientNotification_2026.07.xsd</a>&nbsp;- =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=
+=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=
+=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=
+=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F =D0=9F=D0=9E=
+=D0=94/=D0=A4=D0=A2, X-Compliance, =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F</li>
+</ul>
+<h1 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A1=D1=85=D0=B5=D0=BC=D0=B0=D0=B2=D0=B7=D0=B0=D0=B8=D0=
+=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F">=D0=A1=D1=85=D0=
+=B5=D0=BC=D0=B0 =D0=B2=D0=B7=D0=B0=D0=B8=D0=BC=D0=BE=D0=B4=D0=B5=D0=B9=D1=
+=81=D1=82=D0=B2=D0=B8=D1=8F</h1>
+<p><span class=3D"confluence-embedded-file-wrapper" style=3D""><img class=
+=3D"confluence-embedded-image" src=3D"2b6b4bffe8394280c3436f437ff96169" sty=
+le=3D"" width=3D"468" height=3D"130"></span></p>
+<h1 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=90=D0=BB=D0=B3=D0=BE=D1=80=D0=B8=D1=82=D0=BC">=D0=90=D0=
+=BB=D0=B3=D0=BE=D1=80=D0=B8=D1=82=D0=BC</h1>
+<h2 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0cbdc.=
+777B2BCrossBorderRecipientNotification">=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D0=BA=D0=B0 cbdc.777 B2BCrossBorderRecipientNotification</h2>
+<p class=3D"code-line">=D0=A1=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D0=BF=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=B0=D0=B5=D1=82 =D0=B8=D0=B7 Kaf=
+ka-=D1=82=D0=BE=D0=BF=D0=B8=D0=BA=D0=B0<span> <a href=3D"/display/CBDC/DM+%=
+3A%3A+cc-core-messages">DM :: cc-core-messages</a></span>. =D0=9D=D0=B0 =D0=
+=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D0=BF=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=
+=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D1=83=D0=B6=D0=B5 =D1=80=D0=B0=D1=81=D1=88=D0=B8=D1=84=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BD=D0=BE, =D0=B4=D0=B5=D0=BA=D0=BE=D0=BC=D0=BF=D1=80=D0=
+=B5=D1=81=D1=81=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BE, =D0=BF=D1=80=D0=
+=BE=D0=B2=D0=B0=D0=BB=D0=B8=D0=B4=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=BE=
+ =D0=BF=D0=BE XSD-=D1=81=D1=85=D0=B5=D0=BC=D0=B5 =D0=B8 =D0=BF=D1=80=D0=BE=
+=D0=B2=D0=B5=D1=80=D0=B5=D0=BD=D0=BE =D0=BD=D0=B0 =D0=BA=D0=BE=D1=80=D1=80=
+=D0=B5=D0=BA=D1=82=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=BF=D0=BE=D0=B4=D0=BF=
+=D0=B8=D1=81=D0=B5=D0=B9 =D0=B2&nbsp;<a href=3D"/display/CBDC/Service+%3A%3=
+A+cbdc-cc-adapter">Service :: cbdc-cc-adapter</a>. =D0=92=D0=BE=D1=80=D0=BA=
+=D0=B5=D1=80 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D0=B5=D1=82 =D0=B3=D0=BE=
+=D1=82=D0=BE=D0=B2=D1=8B=D0=B9 XML =D0=B4=D0=BB=D1=8F =D0=BF=D0=B0=D1=80=D1=
+=81=D0=B8=D0=BD=D0=B3=D0=B0.</p>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B31.=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=
+=B8=D0=B5=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8">=D0=A8=D0=B0=D0=
+=B3 1. =D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BE=D0=BF=D0=B5=
+=D1=80=D0=B0=D1=86=D0=B8=D0=B8</h3>
+<p class=3D"code-line">=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=BE=D0=
+=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D1=8E =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=D0=
+=B8=D1=86=D0=B5<span> <a href=3D"/display/CBDC/DB+%3A%3A+core_db.public.ope=
+rations">DB :: core_db.public.operations</a></span>, =D0=B5=D1=81=D0=BB=D0=
+=B8 =D0=BE=D0=BD=D0=B0 =D0=B5=D1=89=D1=91 =D0=BD=D0=B5 =D1=81=D1=83=D1=89=
+=D0=B5=D1=81=D1=82=D0=B2=D1=83=D0=B5=D1=82:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Confluence" data-theme=3D"Confluence">INSERT IN=
+TO operations (opr_id, type, state, state_id, amount, created)
+VALUES (:oprId, 'B2B_CROSS_BORDER_INCOMING', 'INIT', 0, :amount, NOW())
+ON CONFLICT (opr_id) DO NOTHING;</pre>
+</div>
+</div>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B32.=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=
+=B5=D0=BD=D0=B8=D0=B5=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=
+">=D0=A8=D0=B0=D0=B3 2. =D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=
+=B8=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F</h3>
+<p class=3D"code-line">=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B8=D1=82=D1=
+=8C =D0=B2=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B5=D0=B5 =D1=81=D0=BE=D0=BE=D0=
+=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=
+=86=D0=B5<span> <a href=3D"/display/CBDC/DB+%3A%3A+core_db.public.messages"=
+>DB :: core_db.public.messages</a></span>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Confluence" data-theme=3D"Confluence">INSERT IN=
+TO messages (msg_id, operation_id, msg_type, msg_from, msg_to, body, direct=
+ion, correlation_id, signatures, created)
+VALUES (:msgId, :operationId, 'B2B_CROSS_BORDER_RECIPIENT_NF', :from, :to, =
+:xmlBody, 'INCOMING', :correlationId, :signatures, NOW());</pre>
+</div>
+</div>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B33.=D0=9F=D0=B5=D1=80=D0=B5=D1=81=D1=8B=D0=
+=BB=D0=BA=D0=B0=D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=83-=D0=BF=D0=BE=D0=
+=BB=D1=83=D1=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8E">=D0=A8=D0=B0=D0=B3 3. =D0=9F=
+=D0=B5=D1=80=D0=B5=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=9A=D0=BB=D0=B8=D0=B5=
+=D0=BD=D1=82=D1=83-=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=82=D0=B5=D0=BB=
+=D1=8E</h3>
+<p class=3D"code-line">=D0=9E=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B8=D1=
+=82=D1=8C =D0=BE=D1=80=D0=B3=D0=B0=D0=BD=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=
+=8E-=D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8F =D0=BF=D0=
+=BE =D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=
+=BE=D1=80=D1=83 =D0=B8=D0=B7 =D0=B7=D0=B0=D0=B3=D0=BE=D0=BB=D0=BE=D0=B2=D0=
+=BA=D0=B0 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F (MsgHdr/To=
+). =D0=A1=D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=
+ TIR-=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81 =D1=82=
+=D0=B5=D0=BB=D0=BE=D0=BC XML (=D0=B1=D0=B5=D0=B7 =D0=B4=D0=BE=D0=BF=D0=BE=
+=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D1=88=
+=D0=B8=D1=84=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F) =D0=B8 =D0=BE=D1=80=
+=D0=B8=D0=B3=D0=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=BC=D0=B8 =D0=BF=
+=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D1=8F=D0=BC=D0=B8 =D0=9A=D0=90-=D0=BA=D0=BE=
+=D0=BD=D0=B2=D0=B5=D1=80=D1=82=D0=B0 =D0=BE=D1=82 =D0=A0=D0=9E=D0=A0=D0=94.=
+ =D0=9E=D0=BF=D1=83=D0=B1=D0=BB=D0=B8=D0=BA=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =
+=D0=B2 =D1=82=D0=BE=D0=BF=D0=B8=D0=BA<span>&nbsp;</span><a class=3D"externa=
+l-link" href=3D"https://file+mcp-002dfs03-002emosk-002ebanksoyuz-002eru.vsc=
+ode-resource.vscode-cdn.net/UserData%24/VDI/ShishkovEM/%D0%9E%D0%BF%D0%B8%D=
+1%81%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%91%D0%94/FSD_core_db.md" rel=3D"nofollow=
+" style=3D"text-decoration: none;" title=3D"../../%D0%9E%D0%BF%D0%B8%D1%81%=
+D0%B0%D0%BD%D0%B8%D0%B5%20%D0%91%D0%94/FSD_core_db.md">DM :: core-tir-messa=
+ges</a><span> </span>=D0=B4=D0=BB=D1=8F =D0=BF=D0=B5=D1=80=D0=B5=D1=81=D1=
+=8B=D0=BB=D0=BA=D0=B8 =D0=9A=D0=BB=D0=B8=D0=B5=D0=BD=D1=82=D1=83-=D0=BF=D0=
+=BE=D0=BB=D1=83=D1=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8E =D0=B2 BSS Corporate =
+=D1=87=D0=B5=D1=80=D0=B5=D0=B7 <a href=3D"/display/CBDC/Service+%3A%3A+cbdc=
+-tir-adapter">Service :: cbdc-tir-adapter</a>.</p>
+<p class=3D"code-line">=D0=95=D1=81=D0=BB=D0=B8 =D0=BE=D1=80=D0=B3=D0=B0=D0=
+=BD=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F =D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=
+=B4=D0=B5=D0=BD=D0=B0 - =D0=B7=D0=B0=D0=BB=D0=BE=D0=B3=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D1=82=D1=8C =D0=BE=D1=88=D0=B8=D0=B1=D0=BA=D1=83, =D1=81=D0=BE=D0=
+=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5 =D0=BF=D0=B5=D1=80=D0=
+=B5=D1=81=D1=8B=D0=BB=D0=B0=D1=82=D1=8C.</p>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B34.=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B0=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F=D0=BF=D0=B0=D1=80=D0=BD=
+=D0=BE=D0=B3=D0=BE=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=D0=
+=B8=D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=
+=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F">=D0=A8=D0=B0=D0=B3 4. =D0=9F=D1=80=
+=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=
+=D1=8F =D0=BF=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=
+=D1=89=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA =
+=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F</=
+h3>
+<p class=3D"code-line"><a href=3D"/download/attachments/299218236/cbdc.777.=
+001.04.B2BCrossBorderRecipientNotification_2026.07.xsd?version=3D1&amp;modi=
+ficationDate=3D1774715530390&amp;api=3Dv2" data-linked-resource-id=3D"29921=
+8446" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attac=
+hment" data-linked-resource-default-alias=3D"cbdc.777.001.04.B2BCrossBorder=
+RecipientNotification_2026.07.xsd" data-linked-resource-content-type=3D"app=
+lication/octet-stream" data-linked-resource-container-id=3D"299218236" data=
+-linked-resource-container-version=3D"2">cbdc.777.001.04.B2BCrossBorderReci=
+pientNotification_2026.07.xsd</a> =D0=B8&nbsp;<a href=3D"/download/attachme=
+nts/299218236/cbdc.778.001.01.CrossBorderInfoRecipientNotification_2026.07.=
+xsd?version=3D1&amp;modificationDate=3D1774715521080&amp;api=3Dv2" data-lin=
+ked-resource-id=3D"299218429" data-linked-resource-version=3D"1" data-linke=
+d-resource-type=3D"attachment" data-linked-resource-default-alias=3D"cbdc.7=
+78.001.01.CrossBorderInfoRecipientNotification_2026.07.xsd" data-linked-res=
+ource-content-type=3D"application/octet-stream" data-linked-resource-contai=
+ner-id=3D"299218236" data-linked-resource-container-version=3D"2">cbdc.778.=
+001.01.CrossBorderInfoRecipientNotification_2026.07.xsd</a> =D0=BF=D0=BE=D1=
+=81=D1=82=D1=83=D0=BF=D0=B0=D1=8E=D1=82 =D0=BE=D1=82 =D0=A0=D0=9E=D0=A0=D0=
+=94<span>&nbsp;</span>=D0=BD=D0=B5=D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=
+=BC=D0=BE =D0=B8 =D0=B2 =D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=BE=D0=BB=D1=
+=8C=D0=BD=D0=BE=D0=BC =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5.</p>
+<p class=3D"code-line">=D0=9F=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=
+=80=D0=BE=D0=BB=D1=8C =D0=9F=D0=9E=D0=94/=D0=A4=D0=A2 =D1=82=D1=80=D0=B5=D0=
+=B1=D1=83=D0=B5=D1=82 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=B8=D0=B7&nbs=
+p;=D0=BE=D0=B1=D0=BE=D0=B8=D1=85&nbsp;=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=
+=D0=BD=D0=B8=D0=B9 (=D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B8 =D0=BD=D0=B0=D0=
+=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8=D0=B7 cbdc.777 + =D0=
+=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=B0=D0=
+=B3=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=B8=D0=B7 cbdc.778). =D0=9F=D0=BE=D1=
+=8D=D1=82=D0=BE=D0=BC=D1=83 =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=
+=82=D1=80=D0=BE=D0=BB=D1=8C =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0=D0=
+=B5=D1=82=D1=81=D1=8F&nbsp;=D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =D0=BF=D0=
+=BE=D1=81=D0=BB=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F =D0=BE=D0=B1=D0=BE=D0=B8=D1=85.</p>
+<p class=3D"code-line">=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=
+=8C, =D0=B5=D1=81=D1=82=D1=8C =D0=BB=D0=B8 =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=
+=D0=B8=D1=86=D0=B5<span> <a href=3D"/display/CBDC/DB+%3A%3A+core_db.public.=
+messages">DB :: core_db.public.messages</a></span><span>&nbsp;</span>=D0=BF=
+=D0=B0=D1=80=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=
+=D0=B8=D0=B5 cbdc.778 CrossBorderInfoRecipientNotification =D0=B4=D0=BB=D1=
+=8F =D1=82=D0=BE=D0=B9 =D0=B6=D0=B5 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=
+=B8=D0=B8:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Confluence" data-theme=3D"Confluence">SELECT ms=
+g_id FROM messages
+WHERE operation_id =3D :operationId
+  AND msg_type =3D 'CROSS_BORDER_INFO_RECIPIENT_NF'
+LIMIT 1;</pre>
+</div>
+</div>
+<p class=3D"code-line">=D0=95=D1=81=D0=BB=D0=B8 =D0=BF=D0=B0=D1=80=D0=BD=D0=
+=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5&nbsp;=D0=
+=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=BE&nbsp;- =D0=B7=D0=B0=D0=BF=D1=83=D1=
+=81=D1=82=D0=B8=D1=82=D1=8C =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=
+=82=D1=80=D0=BE=D0=BB=D1=8C (=D1=81=D0=BC. "=D0=97=D0=B0=D0=BF=D1=83=D1=81=
+=D0=BA =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=
+=D1=8F" =D0=BD=D0=B8=D0=B6=D0=B5). =D0=95=D1=81=D0=BB=D0=B8 =D0=BF=D0=B0=D1=
+=80=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=
+=B5&nbsp;=D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=BE&nbsp;- =D0=
+=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C =D0=
+=BD=D0=B5 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0=D0=B5=D1=82=D1=81=D1=
+=8F =D0=BD=D0=B0 =D1=8D=D1=82=D0=BE=D0=BC =D1=88=D0=B0=D0=B3=D0=B5, =D0=B1=
+=D1=83=D0=B4=D0=B5=D1=82 =D0=B7=D0=B0=D0=BF=D1=83=D1=89=D0=B5=D0=BD =D0=BF=
+=D1=80=D0=B8 =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B5 cbdc.77=
+8.</p>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B35.=D0=97=D0=B0=D0=B2=D0=B5=D1=80=D1=88=D0=
+=B5=D0=BD=D0=B8=D0=B5=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8">=D0=
+=A8=D0=B0=D0=B3 5. =D0=97=D0=B0=D0=B2=D0=B5=D1=80=D1=88=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8</h3>
+<p class=3D"code-line">=D0=9F=D0=B5=D1=80=D0=B5=D0=B2=D0=B5=D1=81=D1=82=D0=
+=B8 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D1=8E =D0=B2 =D1=82=D0=B0=D0=
+=B1=D0=BB=D0=B8=D1=86=D0=B5<span> <a href=3D"/display/CBDC/DB+%3A%3A+core_d=
+b.public.operations">DB :: core_db.public.operations</a></span><span>&nbsp;=
+</span>=D0=B2 =D1=84=D0=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B5 =D1=81=
+=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=B8=D0=B5:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Confluence" data-theme=3D"Confluence">UPDATE op=
+erations SET state =3D 'FINISHED', state_id =3D state_id + 1
+WHERE opr_id =3D :oprId AND state !=3D 'FINISHED';</pre>
+</div>
+</div>
+<pre><br></pre>
+<h2 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0cbdc.=
+778CrossBorderInfoRecipientNotification">=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D0=BA=D0=B0 cbdc.778 CrossBorderInfoRecipientNotification</h2>
+<p class=3D"code-line">=D0=A1=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D0=BF=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=B0=D0=B5=D1=82 =D0=B8=D0=B7 =D1=
+=82=D0=BE=D0=B3=D0=BE =D0=B6=D0=B5 Kafka-=D1=82=D0=BE=D0=BF=D0=B8=D0=BA=D0=
+=B0<span> <a href=3D"/display/CBDC/DM+%3A%3A+cc-core-messages">DM :: cc-cor=
+e-messages</a></span>, =D0=BF=D0=B0=D1=80=D0=B0=D0=BB=D0=BB=D0=B5=D0=BB=D1=
+=8C=D0=BD=D0=BE =D0=B8 =D0=BD=D0=B5=D0=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=
+=BC=D0=BE =D0=BE=D1=82 <a href=3D"/download/attachments/299218236/cbdc.777.=
+001.04.B2BCrossBorderRecipientNotification_2026.07.xsd?version=3D1&amp;modi=
+ficationDate=3D1774715530390&amp;api=3Dv2" data-linked-resource-id=3D"29921=
+8446" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attac=
+hment" data-linked-resource-default-alias=3D"cbdc.777.001.04.B2BCrossBorder=
+RecipientNotification_2026.07.xsd" data-linked-resource-content-type=3D"app=
+lication/octet-stream" data-linked-resource-container-id=3D"299218236" data=
+-linked-resource-container-version=3D"2">cbdc.777.001.04.B2BCrossBorderReci=
+pientNotification_2026.07.xsd</a>.</p>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B31.=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=
+=BD=D0=B8=D0=B5=D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8">=D0=A8=D0=
+=B0=D0=B3 1. =D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=
+=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8</h3>
+<p class=3D"code-line">=D0=9D=D0=B0=D0=B9=D1=82=D0=B8 =D0=BE=D0=BF=D0=B5=D1=
+=80=D0=B0=D1=86=D0=B8=D1=8E =D0=BF=D0=BE OprId =D0=B2 =D1=82=D0=B0=D0=B1=D0=
+=BB=D0=B8=D1=86=D0=B5<span> <a href=3D"/display/CBDC/DB+%3A%3A+core_db.publ=
+ic.operations">DB :: core_db.public.operations</a></span>. =D0=95=D1=81=D0=
+=BB=D0=B8 RecipientNotification =D0=B5=D1=89=D1=91 =D0=BD=D0=B5 =D0=BF=D1=
+=80=D0=B8=D1=85=D0=BE=D0=B4=D0=B8=D0=BB - =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D1=
+=82=D1=8C =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D1=8E.</p>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B32.=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=
+=B5=D0=BD=D0=B8=D0=B5=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=
+.1">=D0=A8=D0=B0=D0=B3 2. =D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=
+=D0=B8=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F</h3>
+<p class=3D"code-line">=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B8=D1=82=D1=
+=8C =D0=B2=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B5=D0=B5 =D1=81=D0=BE=D0=BE=D0=
+=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=D0=B8=D1=
+=86=D0=B5<span> <a href=3D"/display/CBDC/DB+%3A%3A+core_db.public.messages"=
+>DB :: core_db.public.messages</a></span>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Confluence" data-theme=3D"Confluence">INSERT IN=
+TO messages (msg_id, operation_id, msg_type, msg_from, msg_to, body, direct=
+ion, correlation_id, signatures, created)
+VALUES (:msgId, :operationId, 'CROSS_BORDER_INFO_RECIPIENT_NF', :from, :to,=
+ :xmlBody, 'INCOMING', :correlationId, :signatures, NOW());</pre>
+</div>
+</div>
+<h3 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=A8=D0=B0=D0=B33.=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B0=D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D1=8F=D0=BF=D0=B0=D1=80=D0=BD=
+=D0=BE=D0=B3=D0=BE=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D1=8F=D0=
+=B8=D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=
+=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F">=D0=A8=D0=B0=D0=B3 3. =D0=9F=D1=80=
+=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=
+=D1=8F =D0=BF=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=
+=D1=89=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA =
+=D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F</=
+h3>
+<p class=3D"code-line">=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=
+=8C, =D0=B5=D1=81=D1=82=D1=8C =D0=BB=D0=B8 =D0=B2 =D1=82=D0=B0=D0=B1=D0=BB=
+=D0=B8=D1=86=D0=B5<span> </span><span>&nbsp;</span>=D0=BF=D0=B0=D1=80=D0=BD=
+=D0=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 <a href=
+=3D"/download/attachments/299218236/cbdc.777.001.04.B2BCrossBorderRecipient=
+Notification_2026.07.xsd?version=3D1&amp;modificationDate=3D1774715530390&a=
+mp;api=3Dv2" data-linked-resource-id=3D"299218446" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-de=
+fault-alias=3D"cbdc.777.001.04.B2BCrossBorderRecipientNotification_2026.07.=
+xsd" data-linked-resource-content-type=3D"application/octet-stream" data-li=
+nked-resource-container-id=3D"299218236" data-linked-resource-container-ver=
+sion=3D"2">cbdc.777.001.04.B2BCrossBorderRecipientNotification_2026.07.xsd<=
+/a> =D0=B4=D0=BB=D1=8F =D1=82=D0=BE=D0=B9 =D0=B6=D0=B5 =D0=BE=D0=BF=D0=B5=
+=D1=80=D0=B0=D1=86=D0=B8=D0=B8:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: true; theme: Confluence" data-theme=3D"Confluence">SELECT ms=
+g_id, body FROM messages
+WHERE operation_id =3D :operationId
+  AND msg_type =3D 'B2B_CROSS_BORDER_RECIPIENT_NF'
+LIMIT 1;</pre>
+</div>
+</div>
+<p class=3D"code-line">=D0=95=D1=81=D0=BB=D0=B8 =D0=BF=D0=B0=D1=80=D0=BD=D0=
+=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5<span>&nbsp=
+;</span>=D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=BE&nbsp;- =D0=B7=D0=B0=D0=
+=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=
+=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C (=D1=81=D0=BC. "=D0=97=D0=B0=D0=BF=
+=D1=83=D1=81=D0=BA =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=
+=D0=BE=D0=BB=D1=8F" =D0=BD=D0=B8=D0=B6=D0=B5). =D0=95=D1=81=D0=BB=D0=B8 =D0=
+=BF=D0=B0=D1=80=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=
+=BD=D0=B8=D0=B5&nbsp;=D0=BD=D0=B5 =D0=BD=D0=B0=D0=B9=D0=B4=D0=B5=D0=BD=D0=
+=BE<span>&nbsp;</span>- =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=
+=D1=80=D0=BE=D0=BB=D1=8C =D0=BD=D0=B5 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=
+=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=BD=D0=B0 =D1=8D=D1=82=D0=BE=D0=BC =D1=88=
+=D0=B0=D0=B3=D0=B5, =D0=B1=D1=83=D0=B4=D0=B5=D1=82 =D0=B7=D0=B0=D0=BF=D1=83=
+=D1=89=D0=B5=D0=BD =D0=BF=D1=80=D0=B8 =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=
+=D1=82=D0=BA=D0=B5 <a href=3D"/download/attachments/299218236/cbdc.777.001.=
+04.B2BCrossBorderRecipientNotification_2026.07.xsd?version=3D1&amp;modifica=
+tionDate=3D1774715530390&amp;api=3Dv2" data-linked-resource-id=3D"299218446=
+" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachmen=
+t" data-linked-resource-default-alias=3D"cbdc.777.001.04.B2BCrossBorderReci=
+pientNotification_2026.07.xsd" data-linked-resource-content-type=3D"applica=
+tion/octet-stream" data-linked-resource-container-id=3D"299218236" data-lin=
+ked-resource-container-version=3D"2">cbdc.777.001.04.B2BCrossBorderRecipien=
+tNotification_2026.07.xsd</a>.</p>
+<h2 class=3D"code-line" id=3D"Worker::B2BCrossBorderRecipientNotificationSe=
+rvice(cbdccore)-=D0=97=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=BF=D0=BE=D1=81=D1=
+=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F(=D0=BE=D0=B1=D1=89=D0=
+=B8=D0=B9=D0=B4=D0=BB=D1=8F=D0=BE=D0=B1=D0=BE=D0=B8=D1=85=D0=BE=D0=B1=D1=80=
+=D0=B0=D0=B1=D0=BE=D1=82=D1=87=D0=B8=D0=BA=D0=BE=D0=B2)">=D0=97=D0=B0=D0=BF=
+=D1=83=D1=81=D0=BA =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=
+=D0=BE=D0=BB=D1=8F (=D0=BE=D0=B1=D1=89=D0=B8=D0=B9 =D0=B4=D0=BB=D1=8F =D0=
+=BE=D0=B1=D0=BE=D0=B8=D1=85 =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=
+=87=D0=B8=D0=BA=D0=BE=D0=B2)</h2>
+<p class=3D"code-line">=D0=92=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D1=8F=D0=B5=D1=
+=82=D1=81=D1=8F =D0=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=
+=BD=D0=B8=D0=B8<span>&nbsp;</span>=D0=B2=D1=82=D0=BE=D1=80=D0=BE=D0=B3=D0=
+=BE<span>&nbsp;</span>=D0=B8=D0=B7 =D0=B4=D0=B2=D1=83=D1=85 =D1=81=D0=BE=D0=
+=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B9 (=D0=BD=D0=B5=D0=B2=D0=B0=D0=B6=D0=
+=BD=D0=BE, <a href=3D"/download/attachments/299218236/cbdc.777.001.04.B2BCr=
+ossBorderRecipientNotification_2026.07.xsd?version=3D1&amp;modificationDate=
+=3D1774715530390&amp;api=3Dv2" data-linked-resource-id=3D"299218446" data-l=
+inked-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-=
+linked-resource-default-alias=3D"cbdc.777.001.04.B2BCrossBorderRecipientNot=
+ification_2026.07.xsd" data-linked-resource-content-type=3D"application/oct=
+et-stream" data-linked-resource-container-id=3D"299218236" data-linked-reso=
+urce-container-version=3D"2">cbdc.777.001.04.B2BCrossBorderRecipientNotific=
+ation_2026.07.xsd</a> =D0=B8=D0=BB=D0=B8 <a href=3D"/download/attachments/2=
+99218236/cbdc.778.001.01.CrossBorderInfoRecipientNotification_2026.07.xsd?v=
+ersion=3D1&amp;modificationDate=3D1774715521080&amp;api=3Dv2" data-linked-r=
+esource-id=3D"299218429" data-linked-resource-version=3D"1" data-linked-res=
+ource-type=3D"attachment" data-linked-resource-default-alias=3D"cbdc.778.00=
+1.01.CrossBorderInfoRecipientNotification_2026.07.xsd" data-linked-resource=
+-content-type=3D"application/octet-stream" data-linked-resource-container-i=
+d=3D"299218236" data-linked-resource-container-version=3D"2">cbdc.778.001.0=
+1.CrossBorderInfoRecipientNotification_2026.07.xsd</a>).</p>
+<p class=3D"code-line">=D0=A1=D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D1=82=D1=8C =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D0=BF=D0=BE=D1=81=D1=82-=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=
+=8F =D0=BF=D0=BE =D0=B0=D0=BB=D0=B3=D0=BE=D1=80=D0=B8=D1=82=D0=BC=D1=83<spa=
+n> <a href=3D"/pages/viewpage.action?pageId=3D298505113">Algorithm :: =D0=
+=9C=D0=B0=D0=BF=D0=BF=D0=B8=D0=BD=D0=B3 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85 =D0=B2=D1=85=D0=BE=D0=B4=D1=8F=D1=89=D0=B5=D0=B3=D0=BE =D0=A2=D0=93=D0=
+=9F B2B =D0=B2 OperationPostCheckMessage (cbdc-core)</a></span>, =D0=BF=D0=
+=B5=D1=80=D0=B5=D0=B4=D0=B0=D0=B2 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=
+=B8=D0=B7<span>&nbsp;</span>=D0=BE=D0=B1=D0=BE=D0=B8=D1=85<span>&nbsp;</spa=
+n>=D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B9:</p>
+<ul class=3D"code-line">
+<li class=3D"code-line">=D0=98=D0=B7 cbdc.777 RecipientNotification: =D1=81=
+=D1=83=D0=BC=D0=BC=D0=B0 (TrfAmt), =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=B2 =
+=D0=B8=D0=BD=D0=BE=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D0=B2=
+=D0=B0=D0=BB=D1=8E=D1=82=D0=B5 (FCYAmt), =D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=
+=87=D0=B5=D0=BD=D0=B8=D0=B5 (Purp)</li>
+<li class=3D"code-line">=D0=98=D0=B7 cbdc.778 CrossBorderInfoRecipientNotif=
+ication: =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BB=D1=83=D1=
+=87=D0=B0=D1=82=D0=B5=D0=BB=D1=8F (Rcpnt) =D0=B8 =D0=BE=D1=82=D0=BF=D1=80=
+=D0=B0=D0=B2=D0=B8=D1=82=D0=B5=D0=BB=D1=8F (Sndr)</li>
+</ul>
+<p class=3D"code-line">=D0=9E=D0=BF=D1=83=D0=B1=D0=BB=D0=B8=D0=BA=D0=BE=D0=
+=B2=D0=B0=D1=82=D1=8C =D1=81=D1=84=D0=BE=D1=80=D0=BC=D0=B8=D1=80=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=
+=BD=D0=B8=D0=B5 =D0=B2 Kafka-=D1=82=D0=BE=D0=BF=D0=B8=D0=BA<span> <a href=
+=3D"/display/CBDC/DM+%3A%3A+aml_cft_post_check_messages">DM :: aml_cft_post=
+_check_messages</a></span>. =D0=9F=D1=83=D0=B1=D0=BB=D0=B8=D0=BA=D0=B0=D1=
+=86=D0=B8=D1=8F =D0=B0=D1=81=D0=B8=D0=BD=D1=85=D1=80=D0=BE=D0=BD=D0=BD=D0=
+=B0=D1=8F, =D0=BE=D1=82=D0=B2=D0=B5=D1=82=D0=B0 =D0=BE=D1=82 cbdc-aml-cft-c=
+heck-service =D0=BD=D0=B5 =D0=BE=D0=B6=D0=B8=D0=B4=D0=B0=D0=B5=D1=82=D1=81=
+=D1=8F.</p>
+<p class=3D"code-line">=D0=94=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=
+=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B8 (=D0=BD=D0=B5 =D0=BF=D0=BE=D0=BA=D1=80=D1=8B=D0=B2=D0=B0=D1=8E=D1=
+=82=D1=81=D1=8F =D1=82=D0=B5=D0=BA=D1=83=D1=89=D0=B8=D0=BC =D0=BC=D0=B5=D1=
+=85=D0=B0=D0=BD=D0=B8=D0=B7=D0=BC=D0=BE=D0=BC =D0=BF=D0=BE=D1=81=D1=82-=D0=
+=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8F):</p>
+<ul class=3D"code-line">
+<li class=3D"code-line">X-Compliance (281-=D0=A4=D0=97):<span>&nbsp;</span>=
+<strong>=D0=BD=D0=BE=D0=B2=D0=B0=D1=8F =D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=
+=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C</strong><span>=
+&nbsp;</span>- =D1=82=D1=80=D0=B5=D0=B1=D1=83=D0=B5=D1=82 =D0=BE=D1=82=D0=
+=B4=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE&nbsp;<a href=3D"/pages/viewpa=
+ge.action?pageId=3D299205920">BRD: =D0=9C=D0=BE=D0=B4=D1=83=D0=BB=D1=8C =D1=
+=81=D0=B0=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=
+=BA=D0=BE=D0=BC=D0=BF=D0=BB=D0=B0=D0=B5=D0=BD=D1=81=D0=B0 =E2=80=94 =D0=BF=
+=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=BF=D0=BE =D0=BF=D0=B5=D1=80=
+=D0=B5=D1=87=D0=BD=D1=8E =D0=B1=D0=BB=D0=BE=D0=BA=D0=B8=D1=80=D1=83=D0=B5=
+=D0=BC=D1=8B=D1=85 =D0=BB=D0=B8=D1=86</a></li>
+<li class=3D"code-line">=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=B9 =
+=D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C: =D1=81=D0=BE=D0=B3=D0=BB=
+=D0=B0=D1=81=D0=BD=D0=BE =D0=B0=D0=BB=D1=8C=D0=B1=D0=BE=D0=BC=D1=83, "=D0=
+=BE=D1=81=D1=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=
+=D1=8F =D0=BD=D0=B0 =D1=81=D1=82=D0=BE=D1=80=D0=BE=D0=BD=D0=B5 =D0=91=D0=B0=
+=D0=BD=D0=BA=D0=B0 =D0=92=D0=9A" - =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BE=D0=
+=BA =D0=BF=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D1=87=D0=B8 =D0=B4=D0=B0=D0=BD=D0=
+=BD=D1=8B=D1=85 =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=8F=D0=B5=D1=
+=82=D1=81=D1=8F =D1=81=D0=BE=D0=B2=D0=BC=D0=B5=D1=81=D1=82=D0=BD=D0=BE =D1=
+=81 =D1=83=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=
+=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=BD=D1=
+=82=D1=80=D0=BE=D0=BB=D1=8F =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_8913_1304233488.1785920725971
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/2b6b4bffe8394280c3436f437ff96169
+
+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
+------=_Part_8913_1304233488.1785920725971--
