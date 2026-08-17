@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:iso:std:iso:20022:tech:xsd:cbdc.Resending_2025.07"
+           elementFormDefault="qualified" targetNamespace="urn:iso:std:iso:20022:tech:xsd:cbdc.Resending_2025.07">
+    <xs:element name="Document" type="Document"/>
+    <xs:complexType name="Document">
+        <xs:sequence>
+            <xs:element name="Resending" type="Resending"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Resending">
+        <xs:sequence>
+            <xs:element name="RltdMsgId" minOccurs="1" maxOccurs="1" type="CBDCMessageIdentifier1"/>
+            <xs:element name="RltdOprId" minOccurs="1" maxOccurs="1" type="CBDCOperationIdentifier1"/>
+            <xs:element name="Mdl" minOccurs="0" maxOccurs="1" type="CBDCbase64binary"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="CBDCMessageIdentifier1">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="CBDCOperationIdentifier1">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="CBDCbase64binary">
+        <xs:restriction base="xs:base64Binary">
+            <xs:minLength value="4"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
